@@ -352,4 +352,4 @@ After compilation, firmware is packed using `tools/PACK_UPDATE_TOOL.exe`:
 - `libs/` - Pre-compiled libraries
 - `startup/` - Startup assembly (do not modify unless absolutely necessary)
 - `system/ci130x_system.c` - System init (modify `user_config.h` instead)
-- `SKILL.md` front matter - Skill metadata
+- `SKILL.md` front matter - Preserve unless updating skill validity, routing accuracy, or supported metadata

@@ -3,6 +3,10 @@
 > **SDK**: `CI23LC_SDK_BLE_V1.3.13`
 > **Chips**: CI2312, CI23242
 
+> Applies to: CI2312 and CI23242; confirm exact chip, board, and voice/connectivity feature set before coding.
+> Evidence: `chips/ci23lc/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci23lc/recipes/ble_broadcast.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 BLE broadcast mode allows CI23LC to receive commands from a 2.4G remote controller (Chipintelli proprietary protocol) without establishing a BLE connection. The BLE module scans for advertising packets from the remote, parses the key code, and routes it as a voice command.
 
 ---

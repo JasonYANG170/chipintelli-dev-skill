@@ -3,6 +3,10 @@
 > **SDK**: `CI230X_wifi_combo_sdk_release_v1.1.1`
 > **Chips**: CI2305, CI2306 (LN882H + CI13xx)
 
+> Applies to: CI2305 and CI2306; confirm exact chip, board, and voice/connectivity feature set before coding.
+> Evidence: `chips/ci230x/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci230x/recipes/new_project.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 The CI230X SDK uses CMake (not Make). There is one main project (`ci230x-wifi-sdk-combo`) that supports multiple cloud platforms via CMake options. This recipe explains how to create a new project or customize the existing one.
 
 ---

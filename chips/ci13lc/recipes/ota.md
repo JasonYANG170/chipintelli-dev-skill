@@ -3,6 +3,9 @@
 > SDK: `CI13LC_SDK_V2.0.15`
 > Chips: CI1311, CI1312, CI1316, CI1324, CI1332
 
+> Evidence: `chips/ci13lc/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci13lc/recipes/ota.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ---
 
 ## Overview

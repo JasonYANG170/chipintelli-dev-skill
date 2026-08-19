@@ -1,5 +1,10 @@
 # Natural Language ASR (离线自然说)
 
+> Applies to: CI1311, CI1312, CI1316x, CI1324x, and CI1332x; confirm exact chip, board, and voice/connectivity feature set before coding.
+> SDK: CI13LC SDK selected by the project.
+> Evidence: `chips/ci13lc/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci13lc/recipes/nl_asr.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ## Overview
 
 NL ASR (Natural Language / 离线自然说) allows free-form natural language commands instead of fixed command words. Users can say things in many different ways and the device understands the intent.

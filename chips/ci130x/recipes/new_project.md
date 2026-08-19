@@ -3,6 +3,10 @@
 > SDK: `CI130X_SDK_Offline_V2.1.14`  
 > Template: `projects/offline_asr_pro_sample`
 
+> Applies to: CI1301, CI1302, CI1303, and CI1306 unless the recipe states narrower support; confirm exact chip, board, and voice/connectivity feature set before coding.
+> Evidence: `chips/ci130x/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci130x/recipes/new_project.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ---
 
 ## Overview

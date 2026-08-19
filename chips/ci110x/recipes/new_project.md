@@ -3,6 +3,10 @@
 > **Chips**: CI1102, CI1103 (1st generation, RISC-V Nuclei N201)
 > **Docs**: `docs/软件开发/SDK/CI110X芯片SDK/`
 > **SDK**: Download from [启英泰伦语音AI平台](https://aiplatform.chipintelli.com/attachment)
+> Applies to: CI1102 and CI1103 first-generation offline voice MCU projects.
+> Excludes: CI112X host MCU projects, CI130X/CI13LC second/third-generation projects, and CI230X ARM/LN882H combo projects.
+> Evidence: `chips/ci110x/resources/example_list.md`, `chips/ci110x/resources/pitfalls.md`, and CI110X SDK project templates.
+> Validation: example-derived.
 
 CI110X is the 1st generation Chipintelli voice MCU. The SDK uses riscv-nuclei-elf-gcc with Make or IAR. This recipe provides a brief guide for setting up a new project. Many concepts are shared with CI130X (see `chips/ci130x/recipes/new_project.md` for detailed patterns).
 

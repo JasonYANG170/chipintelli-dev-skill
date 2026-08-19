@@ -1,5 +1,9 @@
 # LLM AIoT Development Guide
 
+> Applies to: CI13XX unified SDK targets documented by the selected SDK; confirm exact chip, board, and voice/connectivity feature set before coding.
+> Evidence: `chips/ci13xx/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci13xx/recipes/llm_aiot.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ## Overview
 
 The LLM AIoT SDK enables both offline voice recognition and cloud-based Large Language Model (LLM) interaction. This allows:

@@ -3,6 +3,10 @@
 > **Chip**: CI1122 (1st generation host MCU, RISC-V Nuclei N201)
 > **Docs**: `docs/软件开发/SDK/CI112X芯片SDK/`
 > **SDK**: Download `CI112X_SDK` from [启英泰伦语音AI平台](https://aiplatform.chipintelli.com/attachment)
+> Applies to: CI1122 host MCU offline projects.
+> Excludes: CI110X voice MCU projects, CI130X/CI13LC second/third-generation projects, and CI230X ARM/LN882H combo projects.
+> Evidence: `chips/ci112x/resources/example_list.md`, `chips/ci112x/resources/pitfalls.md`, and CI112X SDK project templates.
+> Validation: example-derived.
 
 CI112X is the 1st generation host MCU variant. The SDK is offline-only with Denoise support. This recipe provides a brief guide for project setup. Many concepts are shared with CI110X (see `chips/ci110x/recipes/new_project.md`).
 

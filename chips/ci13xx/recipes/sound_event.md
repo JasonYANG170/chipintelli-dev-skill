@@ -1,5 +1,9 @@
 # Sound Event Detection
 
+> Applies to: CI13XX unified SDK targets documented by the selected SDK; confirm exact chip, board, and voice/connectivity feature set before coding.
+> Evidence: `chips/ci13xx/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci13xx/recipes/sound_event.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ## Overview
 
 Sound event detection identifies non-speech audio events such as:

@@ -3,6 +3,10 @@
 > **SDK**: `CI230X_wifi_combo_sdk_release_v1.1.1`
 > **Chips**: CI2305, CI2306 (LN882H + CI13xx)
 
+> Applies to: CI2305 and CI2306; confirm exact chip, board, and voice/connectivity feature set before coding.
+> Evidence: `chips/ci230x/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci230x/recipes/wifi_voice.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 The CI230X is a dual-chip solution: CI13xx (RISC-V, offline ASR) + LN882H (ARM Cortex-M4, Wi-Fi/BLE). This recipe explains how the two chips work together, how voice commands route to the cloud, and how to develop combo applications.
 
 ---

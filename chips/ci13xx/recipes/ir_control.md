@@ -3,6 +3,9 @@
 > SDK: `CI13XX_SDK_ASR_ALG_V2.7.12`
 > Chips: CI1306, CI1311, CI1312, CI1316, CI1324, CI1332, CI2312
 
+> Evidence: `chips/ci13xx/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci13xx/recipes/ir_control.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ---
 
 ## Overview

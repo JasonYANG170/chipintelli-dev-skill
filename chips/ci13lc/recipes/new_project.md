@@ -1,5 +1,10 @@
 # Creating a New CI13LC Project
 
+> Applies to: CI1311, CI1312, CI1316x, CI1324x, and CI1332x; confirm exact chip, board, and voice/connectivity feature set before coding.
+> SDK: CI13LC SDK selected by the project.
+> Evidence: `chips/ci13lc/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci13lc/recipes/new_project.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ## Prerequisites
 
 - `riscv-nuclei-elf-gcc-9.2.0` toolchain installed

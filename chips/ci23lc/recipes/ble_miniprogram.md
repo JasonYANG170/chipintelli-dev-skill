@@ -3,6 +3,10 @@
 > **SDK**: `CI23LC_SDK_BLE_V1.3.13`
 > **Chips**: CI2312, CI23242
 
+> Applies to: CI2312 and CI23242; confirm exact chip, board, and voice/connectivity feature set before coding.
+> Evidence: `chips/ci23lc/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci23lc/recipes/ble_miniprogram.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 This recipe covers developing a CI23LC device that works with the Chipintelli WeChat mini-program ("启英物联小程序") for BLE-based appliance control. The mini-program provides a UI for device control, status display, and command word information retrieval.
 
 ---

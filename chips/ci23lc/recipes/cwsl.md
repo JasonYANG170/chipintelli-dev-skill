@@ -1,5 +1,10 @@
 # CWSL on CI23LC
 
+> Applies to: CI2312 and CI23242; confirm exact chip, board, and voice/connectivity feature set before coding.
+> SDK: CI23LC BLE SDK selected by the project.
+> Evidence: `chips/ci23lc/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci23lc/recipes/cwsl.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ## Overview
 
 CI23LC supports Command Word Self-Learning (CWSL), the same as CI13LC since both use the `ci13lc_chip_driver` and the same `ci_cwsl` component.

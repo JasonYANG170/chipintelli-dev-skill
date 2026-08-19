@@ -1,7 +1,9 @@
 # Recipe: Offline ASR Development
 
-> SDK: `CI130X_SDK_Offline_V2.1.14`  
-> Chips: CI1302, CI1306, CI1312
+> Applies to: CI1302 and CI1306 offline ASR projects.
+> Excludes: CI1312 unless the selected unified CI13XX SDK explicitly documents support for this flow.
+> Evidence: `chips/ci130x/resources/api_reference.md`, `chips/ci130x/resources/build_system.md`, and CI130X SDK `projects/` ASR examples.
+> Validation: source-matched.
 
 ---
 

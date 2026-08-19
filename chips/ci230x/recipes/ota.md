@@ -4,6 +4,10 @@
 > **Chips**: CI2305, CI2306 (LN882H + CI13xx)
 > **Component**: `components/fota/`
 
+> Applies to: CI2305 and CI2306; confirm exact chip, board, and voice/connectivity feature set before coding.
+> Evidence: `chips/ci230x/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci230x/recipes/ota.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 The CI230X supports two types of OTA (Over-The-Air) firmware updates:
 1. **WiFi OTA**: Updates the LN882H firmware (application code)
 2. **Audio OTA**: Updates the CI13xx voice chip firmware

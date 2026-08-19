@@ -1,5 +1,9 @@
 # BLE + Voice Combo on CI13XX
 
+> Applies to: CI13XX unified SDK targets documented by the selected SDK; confirm exact chip, board, and voice/connectivity feature set before coding.
+> Evidence: `chips/ci13xx/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci13xx/recipes/ble_voice.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ## Overview
 
 The CI13XX LLM AIoT SDK includes BLE support via the `ci_ble` component, enabling voice control with BLE connectivity.

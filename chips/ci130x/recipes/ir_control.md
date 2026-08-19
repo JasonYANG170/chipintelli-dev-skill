@@ -1,5 +1,10 @@
 # IR Remote Control with CI130X
 
+> Applies to: CI1301, CI1302, CI1303, and CI1306 unless the recipe states narrower support; confirm exact chip, board, and voice/connectivity feature set before coding.
+> SDK: CI130X SDK selected by the project.
+> Evidence: `chips/ci130x/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci130x/recipes/ir_control.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ## Overview
 
 The CI130X SDK IR variant (`CI130X_SDK_Offline_IR_V2.0.10`) adds infrared remote control capabilities to the voice recognition system.

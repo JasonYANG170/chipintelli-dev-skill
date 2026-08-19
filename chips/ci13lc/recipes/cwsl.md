@@ -1,5 +1,10 @@
 # Command Word Self-Learning (CWSL)
 
+> Applies to: CI1311, CI1312, CI1316x, CI1324x, and CI1332x; confirm exact chip, board, and voice/connectivity feature set before coding.
+> SDK: CI13LC SDK selected by the project.
+> Evidence: `chips/ci13lc/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci13lc/recipes/cwsl.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ## Overview
 
 CWSL allows users to train custom command words on-device without cloud connectivity. The user speaks the command word multiple times, and the device learns to recognize it.

@@ -3,6 +3,9 @@
 > SDK: `CI130X_SDK_TwoMic_V1.0.2`  
 > Chips: CI1306 (4MB flash, QFN40)
 
+> Evidence: `chips/ci130x/resources/`, closest SDK `projects/` example, and this recipe path `chips/ci130x/recipes/two_mic.md`.
+> Validation: draft metadata added from repository routing; verify APIs, `user_config.h`, `source_file.prj`, and pack-tool requirements against the selected SDK.
+
 ---
 
 ## Overview
