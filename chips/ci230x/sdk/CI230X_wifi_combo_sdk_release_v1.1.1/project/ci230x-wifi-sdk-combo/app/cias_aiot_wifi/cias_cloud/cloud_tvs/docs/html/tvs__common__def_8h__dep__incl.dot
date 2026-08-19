@@ -1,0 +1,12 @@
+digraph "tvs_common_def.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="tvs_common_def.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="TVS SDK结构体和参数、返回值、错误码等定义"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="tvs_authorize.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tvs__authorize_8h.html",tooltip="TVS 授权接口"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="tvs_api.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tvs__api_8h.html",tooltip="TVS SDK对外接口"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

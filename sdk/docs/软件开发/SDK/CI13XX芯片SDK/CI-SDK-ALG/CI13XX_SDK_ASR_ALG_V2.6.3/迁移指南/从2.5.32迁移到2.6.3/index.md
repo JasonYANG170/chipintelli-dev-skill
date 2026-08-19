@@ -1,0 +1,9 @@
+<!-- Source: https://document.chipintelli.com/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/SDK/CI13XX%E8%8A%AF%E7%89%87SDK/CI-SDK-ALG/CI13XX_SDK_ASR_ALG_V2.6.3/%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/%E4%BB%8E2.5.32%E8%BF%81%E7%A7%BB%E5%88%B02.6.3/ -->
+
+# 从2.5.32迁移到2.6.3
+
+CI13XX\_SDK\_ASR\_ALG从2.5.32迁移到2.6.3，主要修改功能如下：
+1. 更新ota V3和对应的烧写工具
+2. 增加录音+adpcm压缩写入flash+从flash读取音频文件播放功能
+3. 增加snr检测
+4. DEFAULT\_STOP\_SILCNT和MAX\_STOP\_VAD\_FRM通过MULTI\_INTENT宏管控

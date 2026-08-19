@@ -1,0 +1,534 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>tvs_sdk_api: tvs_authorize.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">tvs_sdk_api
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('tvs__authorize_8h.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">tvs_authorize.h 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>TVS 授权接口  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="tvs__common__def_8h_source.html">tvs_common_def.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+tvs_authorize.h 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="tvs__authorize_8h__incl.png" border="0" usemap="#tvs__authorize_8h" alt=""/></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="tvs__authorize_8h__dep__incl.png" border="0" usemap="#tvs__authorize_8hdep" alt=""/></div>
+</div>
+</div>
+<p><a href="tvs__authorize_8h_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:abfb19a7d5e4978dfa171f930ff139e01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#abfb19a7d5e4978dfa171f930ff139e01">tvs_authorize_init</a> (<a class="el" href="tvs__common__def_8h.html#a90dcf7653d61ef8ba1925005dccf71ac">tvs_authorize_callback</a> callback)</td></tr>
+<tr class="memdesc:abfb19a7d5e4978dfa171f930ff139e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化authorize模块，已过时；  <a href="#abfb19a7d5e4978dfa171f930ff139e01">更多...</a><br /></td></tr>
+<tr class="separator:abfb19a7d5e4978dfa171f930ff139e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9475048d0cc32dd3f3922da4cec99e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#ad9475048d0cc32dd3f3922da4cec99e2">tvs_authorize_set_auth_info</a> (char *auth_info, int auth_info_len)</td></tr>
+<tr class="memdesc:ad9475048d0cc32dd3f3922da4cec99e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置之前生成的authorize结果，调用这个函数代表之前已经完成授权，仅仅需要对授权结果进行刷新操作；已过时；  <a href="#ad9475048d0cc32dd3f3922da4cec99e2">更多...</a><br /></td></tr>
+<tr class="separator:ad9475048d0cc32dd3f3922da4cec99e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2277f513c6d870a34228dea9c75b452"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#ae2277f513c6d870a34228dea9c75b452">tvs_authorize_set_client_id</a> (const char *client_id)</td></tr>
+<tr class="memdesc:ae2277f513c6d870a34228dea9c75b452"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置新的client id，调用此函数将清除之前的authorize结果，之后将利用新的client id重新执行authorize操作；已过时；  <a href="#ae2277f513c6d870a34228dea9c75b452">更多...</a><br /></td></tr>
+<tr class="separator:ae2277f513c6d870a34228dea9c75b452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e92f317cb166dc370d4602230d0d8b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#a78e92f317cb166dc370d4602230d0d8b">tvs_authorize_clear_auth_info</a> ()</td></tr>
+<tr class="memdesc:a78e92f317cb166dc370d4602230d0d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">清除authorize info，一般用于重新配对流程；已过时；  <a href="#a78e92f317cb166dc370d4602230d0d8b">更多...</a><br /></td></tr>
+<tr class="separator:a78e92f317cb166dc370d4602230d0d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d983509ada888b6f9decfc44e81756"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#ab3d983509ada888b6f9decfc44e81756">tvs_authorize_generate_client_id</a> (const char *product_id, const char *dsn)</td></tr>
+<tr class="memdesc:ab3d983509ada888b6f9decfc44e81756"><td class="mdescLeft">&#160;</td><td class="mdescRight">无账号方案中，利用product id和dsn组合client id；已过时；  <a href="#ab3d983509ada888b6f9decfc44e81756">更多...</a><br /></td></tr>
+<tr class="separator:ab3d983509ada888b6f9decfc44e81756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95965cda6cfb912bb97689aa0d93b224"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#a95965cda6cfb912bb97689aa0d93b224">tvs_authorize_start</a> ()</td></tr>
+<tr class="memdesc:a95965cda6cfb912bb97689aa0d93b224"><td class="mdescLeft">&#160;</td><td class="mdescRight">启动authorize流程；已过时；  <a href="#a95965cda6cfb912bb97689aa0d93b224">更多...</a><br /></td></tr>
+<tr class="separator:a95965cda6cfb912bb97689aa0d93b224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59b9d9b9ffd1abd0ff1a1e8a252919c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#a59b9d9b9ffd1abd0ff1a1e8a252919c8">tvs_authorize_restart</a> (const char *client_id)</td></tr>
+<tr class="memdesc:a59b9d9b9ffd1abd0ff1a1e8a252919c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">使用新的client id，重新授权；已过时；  <a href="#a59b9d9b9ffd1abd0ff1a1e8a252919c8">更多...</a><br /></td></tr>
+<tr class="separator:a59b9d9b9ffd1abd0ff1a1e8a252919c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd689c7d25c161eef027586ec044b5ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#acd689c7d25c161eef027586ec044b5ff">tvs_authorize_manager_initalize</a> (const char *product_id, const char *dsn, const char *authorize_info, int authorize_info_size, <a class="el" href="tvs__common__def_8h.html#a90dcf7653d61ef8ba1925005dccf71ac">tvs_authorize_callback</a> auth_callback)</td></tr>
+<tr class="memdesc:acd689c7d25c161eef027586ec044b5ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">授权模块初始化  <a href="#acd689c7d25c161eef027586ec044b5ff">更多...</a><br /></td></tr>
+<tr class="separator:acd689c7d25c161eef027586ec044b5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17c3a3839b5379d692c7714f7531c33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#aa17c3a3839b5379d692c7714f7531c33">tvs_authorize_manager_guest_login</a> ()</td></tr>
+<tr class="memdesc:aa17c3a3839b5379d692c7714f7531c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">触发访客授权流程  <a href="#aa17c3a3839b5379d692c7714f7531c33">更多...</a><br /></td></tr>
+<tr class="separator:aa17c3a3839b5379d692c7714f7531c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9490a9b0cc94d9ead7dbacb9e9f01f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#ac9490a9b0cc94d9ead7dbacb9e9f01f1">tvs_authorize_manager_set_client_id</a> (const char *client_id)</td></tr>
+<tr class="memdesc:ac9490a9b0cc94d9ead7dbacb9e9f01f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">在设备授权方案中，从手机APP端同步client id到设备端后，需要调用此函数设置client id;  <a href="#ac9490a9b0cc94d9ead7dbacb9e9f01f1">更多...</a><br /></td></tr>
+<tr class="separator:ac9490a9b0cc94d9ead7dbacb9e9f01f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab90c953dc34cf02e532445f3ea758b63"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#ab90c953dc34cf02e532445f3ea758b63">tvs_authorize_manager_login</a> ()</td></tr>
+<tr class="memdesc:ab90c953dc34cf02e532445f3ea758b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">触发设备授权流程  <a href="#ab90c953dc34cf02e532445f3ea758b63">更多...</a><br /></td></tr>
+<tr class="separator:ab90c953dc34cf02e532445f3ea758b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7049ed176d81b8cd8803ff9579ef0acd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__authorize_8h.html#a7049ed176d81b8cd8803ff9579ef0acd">tvs_authorize_manager_logout</a> ()</td></tr>
+<tr class="memdesc:a7049ed176d81b8cd8803ff9579ef0acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">注销，用于重新授权的流程，调用此函数清除之前授权的信息  <a href="#a7049ed176d81b8cd8803ff9579ef0acd">更多...</a><br /></td></tr>
+<tr class="separator:a7049ed176d81b8cd8803ff9579ef0acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>TVS 授权接口 </p>
+<dl class="section date"><dt>日期</dt><dd>2019-5-10 </dd></dl>
+</div><h2 class="groupheader">函数说明</h2>
+<a id="a78e92f317cb166dc370d4602230d0d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e92f317cb166dc370d4602230d0d8b">&#9670;&nbsp;</a></span>tvs_authorize_clear_auth_info()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_clear_auth_info </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>清除authorize info，一般用于重新配对流程；已过时； </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab3d983509ada888b6f9decfc44e81756"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3d983509ada888b6f9decfc44e81756">&#9670;&nbsp;</a></span>tvs_authorize_generate_client_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* tvs_authorize_generate_client_id </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>product_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>dsn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>无账号方案中，利用product id和dsn组合client id；已过时； </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">product_id</td><td></td></tr>
+    <tr><td class="paramname">dsn</td><td>设备唯一标识 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>组合所得client id，使用完毕后需要调用free,否则会产生内存泄漏 </dd></dl>
+
+</div>
+</div>
+<a id="abfb19a7d5e4978dfa171f930ff139e01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb19a7d5e4978dfa171f930ff139e01">&#9670;&nbsp;</a></span>tvs_authorize_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="tvs__common__def_8h.html#a90dcf7653d61ef8ba1925005dccf71ac">tvs_authorize_callback</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初始化authorize模块，已过时； </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">callback</td><td>监听器 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0为初始化成功，其他值为失败 </dd></dl>
+
+</div>
+</div>
+<a id="aa17c3a3839b5379d692c7714f7531c33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa17c3a3839b5379d692c7714f7531c33">&#9670;&nbsp;</a></span>tvs_authorize_manager_guest_login()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_manager_guest_login </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>触发访客授权流程 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acd689c7d25c161eef027586ec044b5ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd689c7d25c161eef027586ec044b5ff">&#9670;&nbsp;</a></span>tvs_authorize_manager_initalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_manager_initalize </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>product_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>dsn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>authorize_info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>authorize_info_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="tvs__common__def_8h.html#a90dcf7653d61ef8ba1925005dccf71ac">tvs_authorize_callback</a>&#160;</td>
+          <td class="paramname"><em>auth_callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>授权模块初始化 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">product_id</td><td>产品ID </td></tr>
+    <tr><td class="paramname">dsn</td><td>设备唯一标识 </td></tr>
+    <tr><td class="paramname">authorize_info</td><td>之前保存的授权信息，内容为json字符串；可以传NULL，代表之前从未授权 </td></tr>
+    <tr><td class="paramname">authorize_info_size</td><td>授权信息的长度 </td></tr>
+    <tr><td class="paramname">auth_callback</td><td>授权结果的监听器 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0为成功，其他值为失败 </dd></dl>
+
+</div>
+</div>
+<a id="ab90c953dc34cf02e532445f3ea758b63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab90c953dc34cf02e532445f3ea758b63">&#9670;&nbsp;</a></span>tvs_authorize_manager_login()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_manager_login </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>触发设备授权流程 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7049ed176d81b8cd8803ff9579ef0acd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7049ed176d81b8cd8803ff9579ef0acd">&#9670;&nbsp;</a></span>tvs_authorize_manager_logout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_manager_logout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>注销，用于重新授权的流程，调用此函数清除之前授权的信息 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac9490a9b0cc94d9ead7dbacb9e9f01f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9490a9b0cc94d9ead7dbacb9e9f01f1">&#9670;&nbsp;</a></span>tvs_authorize_manager_set_client_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_manager_set_client_id </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>client_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在设备授权方案中，从手机APP端同步client id到设备端后，需要调用此函数设置client id; </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">client_id</td><td>从手机APP同步过来的client id </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0为成功，其他值为失败； </dd></dl>
+
+</div>
+</div>
+<a id="a59b9d9b9ffd1abd0ff1a1e8a252919c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59b9d9b9ffd1abd0ff1a1e8a252919c8">&#9670;&nbsp;</a></span>tvs_authorize_restart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_restart </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>client_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>使用新的client id，重新授权；已过时； </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">client_id</td><td>新的client id </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0为成功，其他值为失败 </dd></dl>
+
+</div>
+</div>
+<a id="ad9475048d0cc32dd3f3922da4cec99e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9475048d0cc32dd3f3922da4cec99e2">&#9670;&nbsp;</a></span>tvs_authorize_set_auth_info()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_set_auth_info </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>auth_info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>auth_info_len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置之前生成的authorize结果，调用这个函数代表之前已经完成授权，仅仅需要对授权结果进行刷新操作；已过时； </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">auth_info</td><td>authorize结果。 </td></tr>
+    <tr><td class="paramname">auth_info_len</td><td>authorize结果的长度。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0为成功，其他值为失败，错误码见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="ae2277f513c6d870a34228dea9c75b452"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2277f513c6d870a34228dea9c75b452">&#9670;&nbsp;</a></span>tvs_authorize_set_client_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_set_client_id </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>client_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置新的client id，调用此函数将清除之前的authorize结果，之后将利用新的client id重新执行authorize操作；已过时； </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">client_id</td><td>这个ID可用由其他端（比如手机）利用QQ、微信账号或者第三方账号生成并传递到本终端， 也可以利用product id和dsn组合，根据终端账号方案决定 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0为成功，其他值为失败，错误码见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="a95965cda6cfb912bb97689aa0d93b224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95965cda6cfb912bb97689aa0d93b224">&#9670;&nbsp;</a></span>tvs_authorize_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_authorize_start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>启动authorize流程；已过时； </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="tvs__authorize_8h.html">tvs_authorize.h</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

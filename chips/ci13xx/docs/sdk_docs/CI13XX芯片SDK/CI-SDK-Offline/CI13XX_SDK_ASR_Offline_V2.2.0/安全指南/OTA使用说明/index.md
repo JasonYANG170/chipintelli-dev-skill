@@ -1,0 +1,5 @@
+<!-- Source: https://document.chipintelli.com/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/SDK/CI13XX%E8%8A%AF%E7%89%87SDK/CI-SDK-Offline/CI13XX_SDK_ASR_Offline_V2.2.0/%E5%AE%89%E5%85%A8%E6%8C%87%E5%8D%97/OTA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/ -->
+
+# OTA使用说明
+
+## 完善中…

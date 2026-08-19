@@ -1,0 +1,193 @@
+//config
+//define-macro: XXXX
+
+//compile options
+//build-config: XXXXX
+
+//source files.
+source-file: $(SDK_PATH)/startup/ci13lc_init.c
+source-file: $(SDK_PATH)/startup/ci13lc_vtable.S
+source-file: $(SDK_PATH)/startup/ci13lc_startup.S
+
+source-file: $(SDK_PATH)/system/ci13lc_it.c
+source-file: $(SDK_PATH)/system/ci13lc_system.c
+source-file: $(SDK_PATH)/system/ci13lc_handlers.c
+source-file: $(SDK_PATH)/system/baudrate_calibrate.c
+
+source-file: $(SDK_PATH)/components/assist/debug_time_consuming.c
+
+source-file: $(SDK_PATH)/components/freertos/portable/MemMang/heap_4.c
+
+
+source-file: $(SDK_PATH)/components/log/ci_log.c
+
+source-file: $(SDK_PATH)/components/assist/cli/FreeRTOS_CLI.c
+source-file: $(SDK_PATH)/components/assist/cli/UARTCommandConsole.c
+source-file: $(SDK_PATH)/components/assist/cli/port/serial.c
+source-file: $(SDK_PATH)/components/assist/cli/port/Sample_CLI_commands.c
+
+source-file: $(SDK_PATH)/components/flash_control/flash_control_src/ci_flash_data_info.c
+
+source-file: $(SDK_PATH)/components/flash_control/flash_control_src/flash_rw_process.c
+
+
+source-file: $(SDK_PATH)/components/player/simple_mp3_player/simple_mp3_player.c
+
+
+source-file: $(SDK_PATH)/components/status_share/status_share.c
+
+source-file: $(SDK_PATH)/components/ci_nvdm/ci_nvdata_manage.c
+source-file: $(SDK_PATH)/components/ci_nvdm/ci_nvdata_port.c
+
+source-file: $(SDK_PATH)/components/cmd_info/command_file_reader.c
+source-file: $(SDK_PATH)/components/cmd_info/command_info.c
+source-file: $(SDK_PATH)/components/cmd_info/prompt_player.c
+
+
+source-file: $(SDK_PATH)/components/asr/asr_malloc_port.c
+source-file: $(SDK_PATH)/components/asr/asr_process_callback_decoder.c
+source-file: $(SDK_PATH)/components/asr/asr_process_callback.c
+source-file: $(SDK_PATH)/components/codec_manager/codec_manager.c
+
+source-file: $(SDK_PATH)/components/fft/ci_audio_wrapfft.c
+source-file: $(SDK_PATH)/components/fft/ci_fft.c
+
+source-file: $(SDK_PATH)/components/alg/ci_alg_malloc.c
+
+source-file: $(SDK_PATH)/components/msg_com/voice_module_uart_protocol_g1.c
+source-file: $(SDK_PATH)/components/msg_com/i2c_protocol_module.c
+source-file: $(SDK_PATH)/components/msg_com/voice_module_uart_protocol.c
+
+source-file: $(SDK_PATH)/components/led/color_light_control.c
+source-file: $(SDK_PATH)/components/led/led_light_control.c
+
+//source-file: $(SDK_PATH)/components/example/iic_test.c
+
+source-file: $(SDK_PATH)/components/audio_pre_rslt_iis_out/audio_pre_rslt_out.c
+
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_core_eclic.c 
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_core_timer.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_dma.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_codec.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_iisdma.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_core_misc.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_iis.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_gpio.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_iic.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_pwm.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_timer.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_uart.c
+//source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_inner_codec.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_lowpower.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_iwdg.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_spiflash.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_dtrflash.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_scu.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_dpmu.c
+source-file: $(SDK_PATH)/driver/ci13lc_chip_driver/src/ci13lc_pvdc.c
+
+
+source-file: $(SDK_PATH)/driver/boards/board.c
+source-file: $(SDK_PATH)/driver/boards/simulate_uart.c
+
+source-file: $(PROJECT_PATH)/src/main.c
+source-file: $(PROJECT_PATH)/src/system_hook.c
+source-file: $(PROJECT_PATH)/src/system_msg_deal.c
+source-file: $(PROJECT_PATH)/src/user_msg_deal.c
+source-file: $(PROJECT_PATH)/src/ci_ssp_config.c
+
+library-file: $(SDK_PATH)/$(LIBS_PATH)/libasr.a 
+library-file: $(SDK_PATH)/$(LIBS_PATH)/libnewlib_port.a 
+library-file: $(SDK_PATH)/$(LIBS_PATH)/libmp3.a
+library-file: $(SDK_PATH)/$(LIBS_PATH)/libflash_encrypt.a
+library-file: $(SDK_PATH)/$(LIBS_PATH)/libfreertos_port.a
+
+
+//header file path.
+include-path: $(SDK_PATH)/driver/ci13lc_chip_driver/inc
+include-path: $(SDK_PATH)/driver/boards
+include-path: $(SDK_PATH)/driver/third_device_driver/outside_codec
+include-path: $(SDK_PATH)/system
+include-path: $(SDK_PATH)/components/log
+include-path: $(SDK_PATH)/components/assist
+include-path: $(SDK_PATH)/components/assist/cli
+include-path: $(SDK_PATH)/components/assist/cli/port
+include-path: $(SDK_PATH)/components/freertos/include
+include-path: $(SDK_PATH)/components/freertos/portable/GCC/N307
+include-path: $(SDK_PATH)/components/RISCV
+include-path: $(SDK_PATH)/components
+include-path: $(SDK_PATH)/components/asr
+include-path: $(SDK_PATH)/components/asr/asr_top
+include-path: $(SDK_PATH)/components/asr/asr_top/asr_top_inc
+include-path: $(SDK_PATH)/components/asr/decoder/decoder_inc
+include-path: $(SDK_PATH)/components/asr/vad_fe
+include-path: $(SDK_PATH)/components/asr/vad_fe/vad_fe_inc
+include-path: $(SDK_PATH)/components/asr/dnn
+include-path: $(SDK_PATH)/components/asr/dnn/dnn_inc
+include-path: $(SDK_PATH)/components/asr/cinn/cinn_inc
+include-path: $(SDK_PATH)/components/asr/npu/npu_inc
+include-path: $(SDK_PATH)/components/asr/nn_and_flash
+include-path: $(SDK_PATH)/components/asr/nn_and_flash/nn_and_flash_inc
+include-path: $(SDK_PATH)/components/asr/cinn/cinn_v2
+include-path: $(SDK_PATH)/components/asr/cinn/cinn_v2/cinn_inc_v2
+include-path: $(SDK_PATH)/components/serial_asr
+include-path: $(SDK_PATH)/components/fft
+
+
+
+include-path: $(SDK_PATH)/components/msg_com
+include-path: $(SDK_PATH)/components/led
+include-path: $(SDK_PATH)/components/player/audio_play
+include-path: $(SDK_PATH)/components/player/mp3lib/mp3pub
+include-path: $(SDK_PATH)/components/player/aaclib/aacpub
+include-path: $(SDK_PATH)/components/player/flacdec
+include-path: $(SDK_PATH)/components/player/m4a
+include-path: $(SDK_PATH)/components/player/adpcm
+include-path: $(SDK_PATH)/components/player/simple_mp3_player
+include-path: $(SDK_PATH)/components/status_share
+include-path: $(SDK_PATH)/components/flash_control/flash_control_inc
+include-path: $(SDK_PATH)/components/flash_encrypt
+include-path: $(SDK_PATH)/components/codec_manager
+include-path: $(SDK_PATH)/components/ci_nvdm
+include-path: $(SDK_PATH)/components/cmd_info
+include-path: $(SDK_PATH)/components/sys_monitor
+include-path: $(SDK_PATH)/components/ota
+include-path: $(SDK_PATH)/components/audio_pre_rslt_iis_out
+include-path: $(SDK_PATH)/components/audio_in_manage
+include-path: $(SDK_PATH)/components/assist/SEGGER
+include-path: $(SDK_PATH)/components/assist/SEGGER/config
+include-path: $(SDK_PATH)/components/nuclear_com
+include-path: $(SDK_PATH)/components/audio_pre_rslt_iis_out
+
+include-path: $(PROJECT_PATH)/src
+include-path: $(SDK_PATH)/utils
+
+include-path: $(SDK_PATH)/components/alg
+include-path: $(SDK_PATH)/components/alg/denoise
+include-path: $(SDK_PATH)/components/alg/beamforming
+include-path: $(SDK_PATH)/components/alg/dereverb
+include-path: $(SDK_PATH)/components/alg/alc_auto_switch
+include-path: $(SDK_PATH)/components/alg/basic_alg
+include-path: $(SDK_PATH)/components/alg/aec
+include-path: $(SDK_PATH)/components/alg/doa
+include-path: $(SDK_PATH)/components/alg/pwk
+
+source-file: $(SDK_PATH)/app_ble/demo/cias_ble_msg_deal.c
+source-file: $(SDK_PATH)/app_ble/ble_adv_msg_deal.c
+source-file: $(SDK_PATH)/components/ci_ble/ble_main.c
+source-file: $(SDK_PATH)/components/ci_ble/ble_communicate.c
+
+
+library-file: $(SDK_PATH)/$(LIBS_PATH)/libcias_crypto.a
+//ci_ble_demo
+source-file: $(SDK_PATH)/app_ble/demo/cias_rgb_driver.c
+source-file: $(SDK_PATH)/app_ble/demo/cias_rgb_msg_deal.c
+source-file: $(SDK_PATH)/app_ble/demo/cias_fan_msg_deal.c
+source-file: $(SDK_PATH)/app_ble/demo/cias_aircondition_msg_deal.c
+source-file: $(SDK_PATH)/app_ble/demo/cias_warmer_msg_deal.c
+source-file: $(SDK_PATH)/app_ble/demo/cias_heattable_msg_deal.c
+source-file: $(SDK_PATH)/app_ble/demo/cias_tbm_msg_deal.c
+source-file: $(SDK_PATH)/app_ble/demo/cias_waterheated_msg_deal.c
+include-path: $(SDK_PATH)/app_ble/demo
+include-path: $(SDK_PATH)/components/ci_ble
+

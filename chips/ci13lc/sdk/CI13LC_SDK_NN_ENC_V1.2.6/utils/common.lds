@@ -1,0 +1,7 @@
+
+
+
+SRAM_HOST_END_ADDR = 0x1FF98000;
+
+
+

@@ -1,0 +1,8 @@
+Name: "include"
+
+Group: 
+    - speex
+    - ogg
+
+Inc:
+    - build.yml

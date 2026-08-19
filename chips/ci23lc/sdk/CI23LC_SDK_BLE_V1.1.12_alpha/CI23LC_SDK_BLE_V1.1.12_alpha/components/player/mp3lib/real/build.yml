@@ -1,0 +1,23 @@
+Name: "real"
+
+
+Inc:
+    - mp3assembly.h
+    - mp3coder.h
+
+Src:
+    - iar/asmmisc.s
+    - iar/asmpoly_thumb2.s
+    - mp3bitstream.c
+    - mp3buffers.c
+    - mp3dct32.c
+    - mp3dequant.c
+    - mp3dqchan.c
+    - mp3huffman.c
+    - mp3hufftabs.c
+    - mp3imdct.c
+    - mp3polyphase.c
+    - mp3scalfact.c
+    - mp3stproc.c
+    - mp3subband.c
+    - mp3trigtabs.c

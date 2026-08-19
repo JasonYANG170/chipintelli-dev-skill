@@ -1,0 +1,11 @@
+<!-- Source: https://document.chipintelli.com/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/CI23242%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/%E5%B0%81%E8%A3%85%E4%BF%A1%E6%81%AF/ -->
+
+[请点击下载PDF文档](https://document.chipintelli.com/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/PDF/CI23242_datasheet V1.0_chs_20250606.pdf)
+
+# 封装信息
+
+下图是芯片的封装外形图，具体尺寸参数见图中所示。
+
+![芯片封装外形图](https://document.chipintelli.com/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/CI23242%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/img/CI23242%E8%8A%AF%E7%89%87%E5%B0%81%E8%A3%85%E5%A4%96%E5%BD%A2%E5%B0%BA%E5%AF%B8%E5%9B%BE.png)
+
+图P-1 芯片封装外形尺寸图

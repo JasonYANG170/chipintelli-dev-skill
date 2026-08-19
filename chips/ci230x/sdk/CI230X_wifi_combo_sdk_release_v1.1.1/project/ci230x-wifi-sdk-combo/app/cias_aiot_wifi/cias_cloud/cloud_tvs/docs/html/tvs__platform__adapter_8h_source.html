@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>tvs_sdk_api: tvs_platform_adapter.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">tvs_sdk_api
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('tvs__platform__adapter_8h_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">tvs_platform_adapter.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tvs__platform__adapter_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef __TVS_PLATFORM_ADAPTER_H_FHUIEWRT__</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define __TVS_PLATFORM_ADAPTER_H_FHUIEWRT__</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structtvs__soundcard__config.html">   14</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structtvs__soundcard__config.html#ab5d8e1788d02d0e52941a0778776e289">   15</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structtvs__soundcard__config.html#ab5d8e1788d02d0e52941a0778776e289">bitrate</a>;   </div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structtvs__soundcard__config.html#adf7dff2c57c0da9a4a2b70e3e815be31">   16</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structtvs__soundcard__config.html#adf7dff2c57c0da9a4a2b70e3e815be31">channel</a>;   </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;} <a class="code" href="structtvs__soundcard__config.html">tvs_soundcard_config</a>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="tvs__platform__adapter_8h.html#aa892b615d8064cab6f92adec59f1f0c5">   27</a></span>&#160;<span class="keyword">typedef</span> int (*<a class="code" href="tvs__platform__adapter_8h.html#aa892b615d8064cab6f92adec59f1f0c5">tvs_platform_adaptor_soundcard_control</a>)(<span class="keywordtype">bool</span> open, <span class="keywordtype">bool</span> recorder, <a class="code" href="structtvs__soundcard__config.html">tvs_soundcard_config</a>* sc_config);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="tvs__platform__adapter_8h.html#ae1c2d4a7924c744b5e159f6590a1fc6a">   36</a></span>&#160;<span class="keyword">typedef</span> int (*<a class="code" href="tvs__platform__adapter_8h.html#ae1c2d4a7924c744b5e159f6590a1fc6a">tvs_platform_adaptor_soundcard_pcm_read</a>)(<span class="keywordtype">void</span> *data, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> data_bytes);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="tvs__platform__adapter_8h.html#a93097634ceeaed60ee38a27e1cc22415">   45</a></span>&#160;<span class="keyword">typedef</span> int (*<a class="code" href="tvs__platform__adapter_8h.html#a93097634ceeaed60ee38a27e1cc22415">tvs_platform_adaptor_soundcard_pcm_write</a>)(<span class="keywordtype">void</span> *data, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> data_bytes);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="tvs__platform__adapter_8h.html#a3897334bdb5655504a28dc0e9b0d213e">   55</a></span>&#160;<span class="keyword">typedef</span> bool (*<a class="code" href="tvs__platform__adapter_8h.html#a3897334bdb5655504a28dc0e9b0d213e">tvs_platform_adaptor_is_network_valid</a>)();</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="tvs__platform__adapter_8h.html#af88724a2fe3deb87f9aabe0502db077c">   68</a></span>&#160;<span class="keyword">typedef</span> int (*<a class="code" href="tvs__platform__adapter_8h.html#af88724a2fe3deb87f9aabe0502db077c">tvs_platform_adaptor_set_current_volume</a>)(<span class="keywordtype">int</span> cloud_volume, <span class="keywordtype">int</span> max_value, <span class="keywordtype">bool</span> do_init);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="tvs__platform__adapter_8h.html#afb3e02d8483dd61351f261d61825495c">   78</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* (*tvs_platform_adaptor_load_preference)(<span class="keywordtype">int</span>* preference_size);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="tvs__platform__adapter_8h.html#accf46cac704828208aa1b707e924ca3e">   89</a></span>&#160;<span class="keyword">typedef</span> int (*<a class="code" href="tvs__platform__adapter_8h.html#accf46cac704828208aa1b707e924ca3e">tvs_platform_adaptor_save_preference</a>)(<span class="keyword">const</span> <span class="keywordtype">char</span>* preference_buffer, <span class="keywordtype">int</span> preference_size);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="structtvs__platform__adaptor.html">   92</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="tvs__platform__adapter_8h.html#aa892b615d8064cab6f92adec59f1f0c5">tvs_platform_adaptor_soundcard_control</a> soundcard_control;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="tvs__platform__adapter_8h.html#ae1c2d4a7924c744b5e159f6590a1fc6a">tvs_platform_adaptor_soundcard_pcm_read</a> soundcard_pcm_read;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="tvs__platform__adapter_8h.html#a93097634ceeaed60ee38a27e1cc22415">tvs_platform_adaptor_soundcard_pcm_write</a> soundcard_pcm_write;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="tvs__platform__adapter_8h.html#a3897334bdb5655504a28dc0e9b0d213e">tvs_platform_adaptor_is_network_valid</a> is_network_valid;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="tvs__platform__adapter_8h.html#af88724a2fe3deb87f9aabe0502db077c">tvs_platform_adaptor_set_current_volume</a> set_volume;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="tvs__platform__adapter_8h.html#afb3e02d8483dd61351f261d61825495c">tvs_platform_adaptor_load_preference</a> load_preference;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="tvs__platform__adapter_8h.html#accf46cac704828208aa1b707e924ca3e">tvs_platform_adaptor_save_preference</a> save_preference;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;} <a class="code" href="structtvs__platform__adaptor.html">tvs_platform_adaptor</a>;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__platform__adapter_8h.html#a52e6a9d945b27988d2de75640438c6e4">tvs_platform_adapter_init</a>(<a class="code" href="structtvs__platform__adaptor.html">tvs_platform_adaptor</a>* adapter);</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tvs__platform__adapter_8h.html#ad98a5c3fab7941f00b48581c0d3b6304">tvs_platform_adapter_on_volume_changed</a>(<span class="keywordtype">int</span> cloud_volume);</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tvs__platform__adapter_8h.html#ad607e9b94e40d747093cd2c9ca86823e">tvs_platform_adapter_on_network_state_changed</a>(<span class="keywordtype">bool</span> connect);</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="tvs__platform__adapter_8h_html_aa892b615d8064cab6f92adec59f1f0c5"><div class="ttname"><a href="tvs__platform__adapter_8h.html#aa892b615d8064cab6f92adec59f1f0c5">tvs_platform_adaptor_soundcard_control</a></div><div class="ttdeci">int(* tvs_platform_adaptor_soundcard_control)(bool open, bool recorder, tvs_soundcard_config *sc_config)</div><div class="ttdoc">实现此接口，向TVS SDK提供开启/关闭PCM语音录制、播放功能的能力；</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:27</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html_ae1c2d4a7924c744b5e159f6590a1fc6a"><div class="ttname"><a href="tvs__platform__adapter_8h.html#ae1c2d4a7924c744b5e159f6590a1fc6a">tvs_platform_adaptor_soundcard_pcm_read</a></div><div class="ttdeci">int(* tvs_platform_adaptor_soundcard_pcm_read)(void *data, unsigned int data_bytes)</div><div class="ttdoc">实现此接口，向TVS SDK提供录制PCM语音的能力</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:36</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html_ad98a5c3fab7941f00b48581c0d3b6304"><div class="ttname"><a href="tvs__platform__adapter_8h.html#ad98a5c3fab7941f00b48581c0d3b6304">tvs_platform_adapter_on_volume_changed</a></div><div class="ttdeci">void tvs_platform_adapter_on_volume_changed(int cloud_volume)</div><div class="ttdoc">当系统音量改变的时候，需要调用此函数通知sdk</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html_a93097634ceeaed60ee38a27e1cc22415"><div class="ttname"><a href="tvs__platform__adapter_8h.html#a93097634ceeaed60ee38a27e1cc22415">tvs_platform_adaptor_soundcard_pcm_write</a></div><div class="ttdeci">int(* tvs_platform_adaptor_soundcard_pcm_write)(void *data, unsigned int data_bytes)</div><div class="ttdoc">实现此接口，向TVS SDK提供播放PCM语音的能力</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:45</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html_a52e6a9d945b27988d2de75640438c6e4"><div class="ttname"><a href="tvs__platform__adapter_8h.html#a52e6a9d945b27988d2de75640438c6e4">tvs_platform_adapter_init</a></div><div class="ttdeci">int tvs_platform_adapter_init(tvs_platform_adaptor *adapter)</div><div class="ttdoc">初始化Platform Adapter</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html_a3897334bdb5655504a28dc0e9b0d213e"><div class="ttname"><a href="tvs__platform__adapter_8h.html#a3897334bdb5655504a28dc0e9b0d213e">tvs_platform_adaptor_is_network_valid</a></div><div class="ttdeci">bool(* tvs_platform_adaptor_is_network_valid)()</div><div class="ttdoc">实现此接口，向TVS SDK提供获取当前网络状态的能力</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:55</div></div>
+<div class="ttc" id="structtvs__soundcard__config_html_ab5d8e1788d02d0e52941a0778776e289"><div class="ttname"><a href="structtvs__soundcard__config.html#ab5d8e1788d02d0e52941a0778776e289">tvs_soundcard_config::bitrate</a></div><div class="ttdeci">int bitrate</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:15</div></div>
+<div class="ttc" id="structtvs__soundcard__config_html_adf7dff2c57c0da9a4a2b70e3e815be31"><div class="ttname"><a href="structtvs__soundcard__config.html#adf7dff2c57c0da9a4a2b70e3e815be31">tvs_soundcard_config::channel</a></div><div class="ttdeci">int channel</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:16</div></div>
+<div class="ttc" id="structtvs__platform__adaptor_html"><div class="ttname"><a href="structtvs__platform__adaptor.html">tvs_platform_adaptor</a></div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:92</div></div>
+<div class="ttc" id="structtvs__soundcard__config_html"><div class="ttname"><a href="structtvs__soundcard__config.html">tvs_soundcard_config</a></div><div class="ttdoc">录音/播放状态</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:14</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html_af88724a2fe3deb87f9aabe0502db077c"><div class="ttname"><a href="tvs__platform__adapter_8h.html#af88724a2fe3deb87f9aabe0502db077c">tvs_platform_adaptor_set_current_volume</a></div><div class="ttdeci">int(* tvs_platform_adaptor_set_current_volume)(int cloud_volume, int max_value, bool do_init)</div><div class="ttdoc">实现此接口，向TVS SDK提供设置音量的能。 在TVS云端识别到用户的设置音量请求时，将下发音量设置命令，此函数将被回调</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:68</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html_accf46cac704828208aa1b707e924ca3e"><div class="ttname"><a href="tvs__platform__adapter_8h.html#accf46cac704828208aa1b707e924ca3e">tvs_platform_adaptor_save_preference</a></div><div class="ttdeci">int(* tvs_platform_adaptor_save_preference)(const char *preference_buffer, int preference_size)</div><div class="ttdoc">实现此接口，向TVS SDK提供保存持久化配置的能力。 SDK在各种配置参数的值改变的时候，会回调此函数，保存新的持久化配置</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:89</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html_afb3e02d8483dd61351f261d61825495c"><div class="ttname"><a href="tvs__platform__adapter_8h.html#afb3e02d8483dd61351f261d61825495c">tvs_platform_adaptor_load_preference</a></div><div class="ttdeci">const char *(* tvs_platform_adaptor_load_preference)(int *preference_size)</div><div class="ttdoc">实现此接口，向TVS SDK提供读取持久化配置的能力。 一般在设备重启的时候，会回调此函数加载持久化配置的各项参数</div><div class="ttdef"><b>Definition:</b> tvs_platform_adapter.h:78</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html_ad607e9b94e40d747093cd2c9ca86823e"><div class="ttname"><a href="tvs__platform__adapter_8h.html#ad607e9b94e40d747093cd2c9ca86823e">tvs_platform_adapter_on_network_state_changed</a></div><div class="ttdeci">void tvs_platform_adapter_on_network_state_changed(bool connect)</div><div class="ttdoc">当网络状态发生变化的时候，需要调用此函数通知SDK; 注意，在配网时终端作为AP的情况下，网络应该被认为是断开状态， 直到配网结束，终端退出AP模式，重新连上目标WIFI之后，才能调用此函数</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="tvs__platform__adapter_8h.html">tvs_platform_adapter.h</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

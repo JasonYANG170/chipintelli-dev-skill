@@ -1,0 +1,25 @@
+{
+    "ci-tool.flag": "chipintelli-project",
+    "ci-tool.activated_project": "offline_asr_sample",
+    //"ci-tool.make_thread_number": "10",
+    "ci-tool.make_thread_number": "1",
+    "ci-debug-server": "127.0.0.1",
+    "terminal.integrated.env.windows": {"PATH": "${env:PATH};${config:ci-tool.COMPILER_PATH};${workspaceFolder}/tools/build-tools/bin;"},
+    "terminal.integrated.env.linux": {
+        "PATH": "${env:PATH};${config:ci-tool.COMPILER_PATH};${workspaceFolder}/tools/build-tools/bin;"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "user_config.h": "c",
+        "sdk_default_config.h": "c",
+        "ci_pwk.h": "c",
+        "cwsl_manage.h": "c",
+        "ble_main.h": "c",
+        "ble_param_config.h": "c",
+        "cias_ble_msg_deal.h": "c"
+    },
+}
+
+
+
+

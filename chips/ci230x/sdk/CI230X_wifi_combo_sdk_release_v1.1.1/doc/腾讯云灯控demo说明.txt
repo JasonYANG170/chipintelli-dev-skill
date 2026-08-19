@@ -1,0 +1,7 @@
+wifi这边需要使能宏TENCENT_AP_NET_WORK_EN（\project\ci230x-wifi-sdk-combo\app\cias_aiot_wifi\cias_user_cfg\cias_user_config.h下）、
+	          宏CI2305_RGB_DEMO_ENABLE（\project\ci230x-wifi-sdk-combo\app\cias_aiot_wifi\cias_user_cfg\cias_demo_config.h下）
+
+audio端需要使能的宏及相关配置在audio端sdk文档中说明（分支houwang/230x_light_demo_for_use下工程可直接用于提供demo）
+
+三元组说明：dev_0001-dev_0008已用于提供给fae同事使用
+

@@ -1,0 +1,20 @@
+<!-- Source: https://document.chipintelli.com/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/SDK/CI13XX%E8%8A%AF%E7%89%87SDK/CI-SDK-Offline/CI13XX_SDK_ASR_Offline_V2.2.0/API%E6%8C%87%E5%8D%97/%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E6%B7%B1%E5%BA%A6%E5%BC%80%E5%8F%91%E8%BF%9B%E9%98%B6/%E5%94%A4%E9%86%92%E8%AF%8D%E6%8E%A8%E8%8D%90/%E8%B6%8A%E5%8D%97%E8%AF%AD%E5%94%A4%E9%86%92%E8%AF%8D%E6%8E%A8%E8%8D%90/ -->
+
+# 越南语唤醒词推荐
+
+免责声明
+
+我司作为唤醒词模型的技术提供商，仅基于行业经验向客户推荐可能的唤醒词选项，但不对客户最终选择的唤醒词是否侵犯第三方权益（包括但不限于商标权、反不正当竞争法等）承担任何责任。客户应自行对唤醒词进行合法性审查，确保其不与他人在先权利冲突，并避免使用可能引发混淆或误认的指令。因使用我司推荐的唤醒词所产生的一切法律风险及纠纷，均由客户自行承担，与我司无关。
+
+下表中列举了部分产品的推荐唤醒词，供用户使用。
+
+| 唤醒词 | 中文翻译 | 唤醒词 | 中文翻译 |
+| --- | --- | --- | --- |
+| XIN-CHÀO | 你好 | ASSI-ASSI | 阿西阿西 |
+| XIN-CHÀO-ASSI | 你好阿西 | XIN-CHÀO-GHẾ-MÁT-XA | 你好按摩椅 |
+| XIN-CHÀO-GHẾ-MASSAGE | 你好按摩椅 | XIN-CHÀO-ANH | 你好兄弟 |
+| XIN-CHÀO-TAKASHI | 你好塔卡西 | XIN-CHÀO-CHỊ | 你好姐姐 |
+| XIN-CHÀO-ĐẬU-ĐẬU | 你好豆豆 | HEY-ASSI | 嘿阿西 |
+| TIỂU-BỘI-TIỂU-BỘI | 小贝小贝 | QUẢN-GIA-THÔNG-MINH | 智能管家 |
+| HEY-ĐẬU-ĐẬU | 嘿豆豆 | QUẢN-GIA-TẮT-ĐIỀU-HÒA | 空调管家 |
+| QUẢN-GIA-BẬT-ĐIỀU-HÒA | 空调管家 |  |  |

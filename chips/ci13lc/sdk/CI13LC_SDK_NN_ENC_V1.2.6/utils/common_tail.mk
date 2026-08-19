@@ -1,0 +1,23 @@
+
+
+%.o : %.c
+	$(CC_PREFIX)$(CC) $(C_FLAGS) -c -o "$@" "$<"
+
+%.o : %.S
+	$(CC_PREFIX)$(AS) $(S_FLAGS) -c -o "$@" "$<"
+
+build/source_file.mk: source_file.prj
+	# sh $(ROOT_DIR)/tools/generate_makefile.sh
+ifeq ($(OS),Windows_NT)
+	lua $(ROOT_DIR)/utils/generate_makefile.lua source_file.prj $(ROOT_DIR)
+else
+	$(LUA)  $(ROOT_DIR)/utils/generate_makefile.lua source_file.prj $(ROOT_DIR)
+endif
+include $(ROOT_DIR)/utils/common_firmware.mk
+
+clean:
+	-$(RM) -rf build/*
+	-$(RM) -rf *.a
+	-@echo ' '
+
+.PHONY: all clean dependents

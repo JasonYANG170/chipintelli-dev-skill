@@ -1,0 +1,27 @@
+var tvs__api_8h =
+[
+    [ "tvs_api_audio_provider_listen", "tvs__api_8h.html#a455d7426464f1c6e119d93281a8fd2f5", null ],
+    [ "tvs_api_audio_provider_write", "tvs__api_8h.html#a87ef7d592b45b477823856e5722465f3", null ],
+    [ "tvs_api_audio_provider_writer_begin", "tvs__api_8h.html#a09a5b33c7860a77fdae6cf837c1bb70c", null ],
+    [ "tvs_api_audio_provider_writer_end", "tvs__api_8h.html#a3e28cb017de30e62aa35f5096995e0c5", null ],
+    [ "tvs_api_get_current_mode", "tvs__api_8h.html#a2eb5e31cdeb7c2350637d452d879f3ce", null ],
+    [ "tvs_api_init", "tvs__api_8h.html#a21b6e997f0eef04956e18f4390451587", null ],
+    [ "tvs_api_log_enable", "tvs__api_8h.html#a415b805f5c22293f3c5a8af2ce4d9c1f", null ],
+    [ "tvs_api_new_session_id", "tvs__api_8h.html#a1b61935e952e6c8d8b84435a8b440f1e", null ],
+    [ "tvs_api_on_voice_wakeup", "tvs__api_8h.html#ac283dd44d9ae8ba9e300dc5d2ac5998b", null ],
+    [ "tvs_api_playcontrol_next", "tvs__api_8h.html#acc38fd2013a79b4c85efef564980b736", null ],
+    [ "tvs_api_playcontrol_previous", "tvs__api_8h.html#aeaff236c876e4a1686289efceec5278a", null ],
+    [ "tvs_api_send_semantic", "tvs__api_8h.html#a100a6cf44a0064819578626078d7a6f2", null ],
+    [ "tvs_api_set_asr_callback", "tvs__api_8h.html#a1292bf4da1aaac6bef106fa1b26469e6", null ],
+    [ "tvs_api_set_env", "tvs__api_8h.html#a17b2b66bf796a796184547053c375018", null ],
+    [ "tvs_api_set_sandbox", "tvs__api_8h.html#a4ee8962c93c5e4636319f1f12a3fa889", null ],
+    [ "tvs_api_start", "tvs__api_8h.html#afaa49ab3c99b81f655594815dcb2d0ce", null ],
+    [ "tvs_api_start_recognize", "tvs__api_8h.html#a298d0865748f1c45fc1a3a87a68a3e77", null ],
+    [ "tvs_api_start_recognize_ex", "tvs__api_8h.html#ae8da1214bca01cca6d81b5591000f5cf", null ],
+    [ "tvs_api_start_text_recognize", "tvs__api_8h.html#a9d2a7895fd8c14d9b3df86ea45963ece", null ],
+    [ "tvs_api_start_text_to_speech", "tvs__api_8h.html#a3fbf86710255373fc456aecd7017432c", null ],
+    [ "tvs_api_start_text_to_speech_ex", "tvs__api_8h.html#a11c6cf4bb1e399b933d2ead1afd8849c", null ],
+    [ "tvs_api_stop", "tvs__api_8h.html#a8b5e49ff924e489b75fb5faba2983949", null ],
+    [ "tvs_api_stop_all_activity", "tvs__api_8h.html#aeb7bcddccae08fbcac151b4d8f543e09", null ],
+    [ "tvs_api_stop_recognize", "tvs__api_8h.html#ab78ceac876359e94de536d9eba3a55b5", null ]
+];

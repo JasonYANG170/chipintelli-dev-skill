@@ -1,0 +1,5 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+SET(TVS_PROJECT_LIB_DIR ${PROJECT_BINARY_DIR}/lib)
+
+add_subdirectory("tvs_sdk")

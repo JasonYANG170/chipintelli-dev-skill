@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>tvs_sdk_api: tvs_api.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">tvs_sdk_api
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('tvs__api_8h_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">tvs_api.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tvs__api_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#ifndef __TVS_API_H_1FJILELIHUY34__</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#define __TVS_API_H_1FJILELIHUY34__</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tvs__authorize_8h.html">tvs_authorize.h</a>&quot;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tvs__media__player__adapter_8h.html">tvs_media_player_adapter.h</a>&quot;</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tvs__platform__adapter_8h.html">tvs_platform_adapter.h</a>&quot;</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tvs__alert__adapter_8h.html">tvs_alert_adapter.h</a>&quot;</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tvs__common__def_8h.html">tvs_common_def.h</a>&quot;</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a298d0865748f1c45fc1a3a87a68a3e77">tvs_api_start_recognize</a>();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#ae8da1214bca01cca6d81b5591000f5cf">tvs_api_start_recognize_ex</a>(<span class="keywordtype">bool</span> use_8k_bitrate, <span class="keywordtype">bool</span> use_speex);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#ab78ceac876359e94de536d9eba3a55b5">tvs_api_stop_recognize</a>();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#aeb7bcddccae08fbcac151b4d8f543e09">tvs_api_stop_all_activity</a>();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#acc38fd2013a79b4c85efef564980b736">tvs_api_playcontrol_next</a>();</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#aeaff236c876e4a1686289efceec5278a">tvs_api_playcontrol_previous</a>();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a9d2a7895fd8c14d9b3df86ea45963ece">tvs_api_start_text_recognize</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* text);</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a100a6cf44a0064819578626078d7a6f2">tvs_api_send_semantic</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* semantic);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a3fbf86710255373fc456aecd7017432c">tvs_api_start_text_to_speech</a>(<span class="keywordtype">char</span>* text);</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a11c6cf4bb1e399b933d2ead1afd8849c">tvs_api_start_text_to_speech_ex</a>(<a class="code" href="structtvs__api__tts__param.html">tvs_api_tts_param</a>* tts_param);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a21b6e997f0eef04956e18f4390451587">tvs_api_init</a>(<a class="code" href="structtvs__api__callback.html">tvs_api_callback</a>* api_callbacks, <a class="code" href="structtvs__default__config.html">tvs_default_config</a>* config, <a class="code" href="structtvs__product__qua.html">tvs_product_qua</a>* produce_qua);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a1292bf4da1aaac6bef106fa1b26469e6">tvs_api_set_asr_callback</a>(<a class="code" href="tvs__common__def_8h.html#ad99bb624547e16fe676bba6903cad66a">tvs_callback_on_asr_result</a> callback);</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tvs__api_8h.html#a17b2b66bf796a796184547053c375018">tvs_api_set_env</a>(<a class="code" href="tvs__common__def_8h.html#a7b5f77df252a057ac0a63f6f07f44833">tvs_api_env</a> env);</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tvs__api_8h.html#a4ee8962c93c5e4636319f1f12a3fa889">tvs_api_set_sandbox</a>(<span class="keywordtype">bool</span> open_sandbox);</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<a class="code" href="tvs__common__def_8h.html#af3d61c6c0a0109373487de2a670ace99">tvs_mode</a> <a class="code" href="tvs__api_8h.html#a2eb5e31cdeb7c2350637d452d879f3ce">tvs_api_get_current_mode</a>();</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tvs__api_8h.html#a415b805f5c22293f3c5a8af2ce4d9c1f">tvs_api_log_enable</a>(<span class="keywordtype">bool</span> enable);</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#afaa49ab3c99b81f655594815dcb2d0ce">tvs_api_start</a>();</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a8b5e49ff924e489b75fb5faba2983949">tvs_api_stop</a>();</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a1b61935e952e6c8d8b84435a8b440f1e">tvs_api_new_session_id</a>();</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#ac283dd44d9ae8ba9e300dc5d2ac5998b">tvs_api_on_voice_wakeup</a>(<span class="keywordtype">int</span> session_id, <span class="keyword">const</span> <span class="keywordtype">char</span>* wakeword, <span class="keywordtype">int</span> startIndexInSamples, <span class="keywordtype">int</span> endIndexInSamples);</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a09a5b33c7860a77fdae6cf837c1bb70c">tvs_api_audio_provider_writer_begin</a>();</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a455d7426464f1c6e119d93281a8fd2f5">tvs_api_audio_provider_listen</a>(<a class="code" href="tvs__common__def_8h.html#a0fd8e8fff55c25044094299990c6bc2f">tvs_api_callback_on_provider_reader_stop</a> callback);</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tvs__api_8h.html#a3e28cb017de30e62aa35f5096995e0c5">tvs_api_audio_provider_writer_end</a>();</div><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__api_8h.html#a87ef7d592b45b477823856e5722465f3">tvs_api_audio_provider_write</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* audio_data, <span class="keywordtype">int</span> size);</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="tvs__api_8h_html_aeaff236c876e4a1686289efceec5278a"><div class="ttname"><a href="tvs__api_8h.html#aeaff236c876e4a1686289efceec5278a">tvs_api_playcontrol_previous</a></div><div class="ttdeci">int tvs_api_playcontrol_previous()</div><div class="ttdoc">播放控制，切到上一首</div></div>
+<div class="ttc" id="tvs__api_8h_html_a1b61935e952e6c8d8b84435a8b440f1e"><div class="ttname"><a href="tvs__api_8h.html#a1b61935e952e6c8d8b84435a8b440f1e">tvs_api_new_session_id</a></div><div class="ttdeci">int tvs_api_new_session_id()</div><div class="ttdoc">创建一个新的session id，代表开启一轮新的智能语音对话</div></div>
+<div class="ttc" id="tvs__api_8h_html_a415b805f5c22293f3c5a8af2ce4d9c1f"><div class="ttname"><a href="tvs__api_8h.html#a415b805f5c22293f3c5a8af2ce4d9c1f">tvs_api_log_enable</a></div><div class="ttdeci">void tvs_api_log_enable(bool enable)</div><div class="ttdoc">禁止/允许打印日志，默认为禁止打印</div></div>
+<div class="ttc" id="tvs__api_8h_html_a1292bf4da1aaac6bef106fa1b26469e6"><div class="ttname"><a href="tvs__api_8h.html#a1292bf4da1aaac6bef106fa1b26469e6">tvs_api_set_asr_callback</a></div><div class="ttdeci">int tvs_api_set_asr_callback(tvs_callback_on_asr_result callback)</div><div class="ttdoc">监听后台下发的语音转文本结果</div></div>
+<div class="ttc" id="tvs__api_8h_html_afaa49ab3c99b81f655594815dcb2d0ce"><div class="ttname"><a href="tvs__api_8h.html#afaa49ab3c99b81f655594815dcb2d0ce">tvs_api_start</a></div><div class="ttdeci">int tvs_api_start()</div><div class="ttdoc">启动SDK</div></div>
+<div class="ttc" id="tvs__common__def_8h_html_a0fd8e8fff55c25044094299990c6bc2f"><div class="ttname"><a href="tvs__common__def_8h.html#a0fd8e8fff55c25044094299990c6bc2f">tvs_api_callback_on_provider_reader_stop</a></div><div class="ttdeci">void(* tvs_api_callback_on_provider_reader_stop)(int session_id, int error)</div><div class="ttdoc">当SDK内部的流式语音上传操作停止时，将回调此接口</div><div class="ttdef"><b>Definition:</b> tvs_common_def.h:267</div></div>
+<div class="ttc" id="tvs__api_8h_html_a17b2b66bf796a796184547053c375018"><div class="ttname"><a href="tvs__api_8h.html#a17b2b66bf796a796184547053c375018">tvs_api_set_env</a></div><div class="ttdeci">void tvs_api_set_env(tvs_api_env env)</div><div class="ttdoc">此函数已失效</div></div>
+<div class="ttc" id="tvs__api_8h_html_a87ef7d592b45b477823856e5722465f3"><div class="ttname"><a href="tvs__api_8h.html#a87ef7d592b45b477823856e5722465f3">tvs_api_audio_provider_write</a></div><div class="ttdeci">int tvs_api_audio_provider_write(const char *audio_data, int size)</div><div class="ttdoc">将前端音频模块采集到的语音（PCM）喂给SDK，SDK将会为这些数据编码，并发送到云端进行识别</div></div>
+<div class="ttc" id="tvs__common__def_8h_html_af3d61c6c0a0109373487de2a670ace99"><div class="ttname"><a href="tvs__common__def_8h.html#af3d61c6c0a0109373487de2a670ace99">tvs_mode</a></div><div class="ttdeci">tvs_mode</div><div class="ttdoc">人设/模式</div><div class="ttdef"><b>Definition:</b> tvs_common_def.h:87</div></div>
+<div class="ttc" id="tvs__common__def_8h_html_ad99bb624547e16fe676bba6903cad66a"><div class="ttname"><a href="tvs__common__def_8h.html#ad99bb624547e16fe676bba6903cad66a">tvs_callback_on_asr_result</a></div><div class="ttdeci">void(* tvs_callback_on_asr_result)(const char *asr_text, bool is_end)</div><div class="ttdoc">监听后台下发的语音转文本结果</div><div class="ttdef"><b>Definition:</b> tvs_common_def.h:234</div></div>
+<div class="ttc" id="tvs__api_8h_html_a3e28cb017de30e62aa35f5096995e0c5"><div class="ttname"><a href="tvs__api_8h.html#a3e28cb017de30e62aa35f5096995e0c5">tvs_api_audio_provider_writer_end</a></div><div class="ttdeci">void tvs_api_audio_provider_writer_end()</div><div class="ttdoc">通知SDK，前端音频模块录音停止，一般是检测到了本地VAD的结束标识 此函数用于在SDK之外提供前端音频处理模块的方案。 前端音频模块收到本地VAD的结束标识时，调用此函数</div></div>
+<div class="ttc" id="tvs__api_8h_html_a2eb5e31cdeb7c2350637d452d879f3ce"><div class="ttname"><a href="tvs__api_8h.html#a2eb5e31cdeb7c2350637d452d879f3ce">tvs_api_get_current_mode</a></div><div class="ttdeci">tvs_mode tvs_api_get_current_mode()</div><div class="ttdoc">获取当前模式</div></div>
+<div class="ttc" id="tvs__api_8h_html_a11c6cf4bb1e399b933d2ead1afd8849c"><div class="ttname"><a href="tvs__api_8h.html#a11c6cf4bb1e399b933d2ead1afd8849c">tvs_api_start_text_to_speech_ex</a></div><div class="ttdeci">int tvs_api_start_text_to_speech_ex(tvs_api_tts_param *tts_param)</div><div class="ttdoc">语音合成接口，带参数</div></div>
+<div class="ttc" id="structtvs__api__callback_html"><div class="ttname"><a href="structtvs__api__callback.html">tvs_api_callback</a></div><div class="ttdoc">向SDK注册的回调函数</div><div class="ttdef"><b>Definition:</b> tvs_common_def.h:240</div></div>
+<div class="ttc" id="structtvs__product__qua_html"><div class="ttname"><a href="structtvs__product__qua.html">tvs_product_qua</a></div><div class="ttdoc">产品QUA</div><div class="ttdef"><b>Definition:</b> tvs_common_def.h:108</div></div>
+<div class="ttc" id="tvs__api_8h_html_a09a5b33c7860a77fdae6cf837c1bb70c"><div class="ttname"><a href="tvs__api_8h.html#a09a5b33c7860a77fdae6cf837c1bb70c">tvs_api_audio_provider_writer_begin</a></div><div class="ttdeci">int tvs_api_audio_provider_writer_begin()</div><div class="ttdoc">通知SDK，前端音频模块准备开始录音 此函数用于在SDK之外提供前端音频处理模块的方案。 收到本地热词唤醒事件后，先调用此函数，再调用tvs_api_on_voice_wakeup</div></div>
+<div class="ttc" id="tvs__api_8h_html_a8b5e49ff924e489b75fb5faba2983949"><div class="ttname"><a href="tvs__api_8h.html#a8b5e49ff924e489b75fb5faba2983949">tvs_api_stop</a></div><div class="ttdeci">int tvs_api_stop()</div><div class="ttdoc">停止SDK，用于有账号方案重新授权的情况</div></div>
+<div class="ttc" id="tvs__media__player__adapter_8h_html"><div class="ttname"><a href="tvs__media__player__adapter_8h.html">tvs_media_player_adapter.h</a></div><div class="ttdoc">TVS 流媒体播放适配接口层</div></div>
+<div class="ttc" id="tvs__common__def_8h_html"><div class="ttname"><a href="tvs__common__def_8h.html">tvs_common_def.h</a></div><div class="ttdoc">TVS SDK结构体和参数、返回值、错误码等定义</div></div>
+<div class="ttc" id="structtvs__default__config_html"><div class="ttname"><a href="structtvs__default__config.html">tvs_default_config</a></div><div class="ttdoc">SDK配置参数</div><div class="ttdef"><b>Definition:</b> tvs_common_def.h:97</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html"><div class="ttname"><a href="tvs__alert__adapter_8h.html">tvs_alert_adapter.h</a></div><div class="ttdoc">TVS 闹钟适配接口层</div></div>
+<div class="ttc" id="tvs__api_8h_html_ab78ceac876359e94de536d9eba3a55b5"><div class="ttname"><a href="tvs__api_8h.html#ab78ceac876359e94de536d9eba3a55b5">tvs_api_stop_recognize</a></div><div class="ttdeci">int tvs_api_stop_recognize()</div><div class="ttdoc">中止当前的智能语音对话的录音流程，并立即开始识别</div></div>
+<div class="ttc" id="tvs__authorize_8h_html"><div class="ttname"><a href="tvs__authorize_8h.html">tvs_authorize.h</a></div><div class="ttdoc">TVS 授权接口</div></div>
+<div class="ttc" id="tvs__api_8h_html_a100a6cf44a0064819578626078d7a6f2"><div class="ttname"><a href="tvs__api_8h.html#a100a6cf44a0064819578626078d7a6f2">tvs_api_send_semantic</a></div><div class="ttdeci">int tvs_api_send_semantic(const char *semantic)</div><div class="ttdoc">明确语义接口</div></div>
+<div class="ttc" id="tvs__api_8h_html_a21b6e997f0eef04956e18f4390451587"><div class="ttname"><a href="tvs__api_8h.html#a21b6e997f0eef04956e18f4390451587">tvs_api_init</a></div><div class="ttdeci">int tvs_api_init(tvs_api_callback *api_callbacks, tvs_default_config *config, tvs_product_qua *produce_qua)</div><div class="ttdoc">初始化SDK</div></div>
+<div class="ttc" id="tvs__api_8h_html_a298d0865748f1c45fc1a3a87a68a3e77"><div class="ttname"><a href="tvs__api_8h.html#a298d0865748f1c45fc1a3a87a68a3e77">tvs_api_start_recognize</a></div><div class="ttdeci">int tvs_api_start_recognize()</div><div class="ttdoc">开启智能语音对话</div></div>
+<div class="ttc" id="tvs__api_8h_html_ae8da1214bca01cca6d81b5591000f5cf"><div class="ttname"><a href="tvs__api_8h.html#ae8da1214bca01cca6d81b5591000f5cf">tvs_api_start_recognize_ex</a></div><div class="ttdeci">int tvs_api_start_recognize_ex(bool use_8k_bitrate, bool use_speex)</div><div class="ttdoc">此函数已失效</div></div>
+<div class="ttc" id="tvs__api_8h_html_aeb7bcddccae08fbcac151b4d8f543e09"><div class="ttname"><a href="tvs__api_8h.html#aeb7bcddccae08fbcac151b4d8f543e09">tvs_api_stop_all_activity</a></div><div class="ttdeci">int tvs_api_stop_all_activity()</div><div class="ttdoc">中止当前正在进行的智能语音对话、播放控制等活动</div></div>
+<div class="ttc" id="tvs__api_8h_html_a455d7426464f1c6e119d93281a8fd2f5"><div class="ttname"><a href="tvs__api_8h.html#a455d7426464f1c6e119d93281a8fd2f5">tvs_api_audio_provider_listen</a></div><div class="ttdeci">int tvs_api_audio_provider_listen(tvs_api_callback_on_provider_reader_stop callback)</div><div class="ttdoc">前端音频模块监听SDK的停止事件；</div></div>
+<div class="ttc" id="tvs__api_8h_html_acc38fd2013a79b4c85efef564980b736"><div class="ttname"><a href="tvs__api_8h.html#acc38fd2013a79b4c85efef564980b736">tvs_api_playcontrol_next</a></div><div class="ttdeci">int tvs_api_playcontrol_next()</div><div class="ttdoc">播放控制，切到下一首</div></div>
+<div class="ttc" id="tvs__api_8h_html_ac283dd44d9ae8ba9e300dc5d2ac5998b"><div class="ttname"><a href="tvs__api_8h.html#ac283dd44d9ae8ba9e300dc5d2ac5998b">tvs_api_on_voice_wakeup</a></div><div class="ttdeci">int tvs_api_on_voice_wakeup(int session_id, const char *wakeword, int startIndexInSamples, int endIndexInSamples)</div><div class="ttdoc">设备端响应本地热词唤醒事件，开始一轮新的智能语音识别； 此函数用于在SDK之外提供前端音频处理模块的方案。在收到本地热词唤醒事件时，接入方需要调用此函数，准备接收前端 音频模块发送的语音数据，需要配合t...</div></div>
+<div class="ttc" id="tvs__platform__adapter_8h_html"><div class="ttname"><a href="tvs__platform__adapter_8h.html">tvs_platform_adapter.h</a></div><div class="ttdoc">TVS platform 接口层</div></div>
+<div class="ttc" id="tvs__common__def_8h_html_a7b5f77df252a057ac0a63f6f07f44833"><div class="ttname"><a href="tvs__common__def_8h.html#a7b5f77df252a057ac0a63f6f07f44833">tvs_api_env</a></div><div class="ttdeci">tvs_api_env</div><div class="ttdoc">SDK环境</div><div class="ttdef"><b>Definition:</b> tvs_common_def.h:77</div></div>
+<div class="ttc" id="tvs__api_8h_html_a9d2a7895fd8c14d9b3df86ea45963ece"><div class="ttname"><a href="tvs__api_8h.html#a9d2a7895fd8c14d9b3df86ea45963ece">tvs_api_start_text_recognize</a></div><div class="ttdeci">int tvs_api_start_text_recognize(const char *text)</div><div class="ttdoc">智能文本解析接口</div></div>
+<div class="ttc" id="tvs__api_8h_html_a4ee8962c93c5e4636319f1f12a3fa889"><div class="ttname"><a href="tvs__api_8h.html#a4ee8962c93c5e4636319f1f12a3fa889">tvs_api_set_sandbox</a></div><div class="ttdeci">void tvs_api_set_sandbox(bool open_sandbox)</div><div class="ttdoc">此函数已失效</div></div>
+<div class="ttc" id="tvs__api_8h_html_a3fbf86710255373fc456aecd7017432c"><div class="ttname"><a href="tvs__api_8h.html#a3fbf86710255373fc456aecd7017432c">tvs_api_start_text_to_speech</a></div><div class="ttdeci">int tvs_api_start_text_to_speech(char *text)</div><div class="ttdoc">语音合成接口，语音合成参数，包括音量、声调、语速和音色均采用默认值</div></div>
+<div class="ttc" id="structtvs__api__tts__param_html"><div class="ttname"><a href="structtvs__api__tts__param.html">tvs_api_tts_param</a></div><div class="ttdoc">语音合成参数</div><div class="ttdef"><b>Definition:</b> tvs_common_def.h:170</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="tvs__api_8h.html">tvs_api.h</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

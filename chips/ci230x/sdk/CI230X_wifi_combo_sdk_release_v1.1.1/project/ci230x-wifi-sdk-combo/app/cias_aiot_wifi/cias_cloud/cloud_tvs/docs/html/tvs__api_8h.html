@@ -1,0 +1,890 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>tvs_sdk_api: tvs_api.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">tvs_sdk_api
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('tvs__api_8h.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">tvs_api.h 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>TVS SDK对外接口  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="tvs__authorize_8h_source.html">tvs_authorize.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tvs__media__player__adapter_8h_source.html">tvs_media_player_adapter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tvs__platform__adapter_8h_source.html">tvs_platform_adapter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tvs__alert__adapter_8h_source.html">tvs_alert_adapter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tvs__common__def_8h_source.html">tvs_common_def.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+tvs_api.h 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="tvs__api_8h__incl.png" border="0" usemap="#tvs__api_8h" alt=""/></div>
+</div>
+</div>
+<p><a href="tvs__api_8h_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a298d0865748f1c45fc1a3a87a68a3e77"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a298d0865748f1c45fc1a3a87a68a3e77">tvs_api_start_recognize</a> ()</td></tr>
+<tr class="memdesc:a298d0865748f1c45fc1a3a87a68a3e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">开启智能语音对话  <a href="#a298d0865748f1c45fc1a3a87a68a3e77">更多...</a><br /></td></tr>
+<tr class="separator:a298d0865748f1c45fc1a3a87a68a3e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8da1214bca01cca6d81b5591000f5cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#ae8da1214bca01cca6d81b5591000f5cf">tvs_api_start_recognize_ex</a> (bool use_8k_bitrate, bool use_speex)</td></tr>
+<tr class="memdesc:ae8da1214bca01cca6d81b5591000f5cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">此函数已失效  <a href="#ae8da1214bca01cca6d81b5591000f5cf">更多...</a><br /></td></tr>
+<tr class="separator:ae8da1214bca01cca6d81b5591000f5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab78ceac876359e94de536d9eba3a55b5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#ab78ceac876359e94de536d9eba3a55b5">tvs_api_stop_recognize</a> ()</td></tr>
+<tr class="memdesc:ab78ceac876359e94de536d9eba3a55b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">中止当前的智能语音对话的录音流程，并立即开始识别  <a href="#ab78ceac876359e94de536d9eba3a55b5">更多...</a><br /></td></tr>
+<tr class="separator:ab78ceac876359e94de536d9eba3a55b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb7bcddccae08fbcac151b4d8f543e09"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#aeb7bcddccae08fbcac151b4d8f543e09">tvs_api_stop_all_activity</a> ()</td></tr>
+<tr class="memdesc:aeb7bcddccae08fbcac151b4d8f543e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">中止当前正在进行的智能语音对话、播放控制等活动  <a href="#aeb7bcddccae08fbcac151b4d8f543e09">更多...</a><br /></td></tr>
+<tr class="separator:aeb7bcddccae08fbcac151b4d8f543e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc38fd2013a79b4c85efef564980b736"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#acc38fd2013a79b4c85efef564980b736">tvs_api_playcontrol_next</a> ()</td></tr>
+<tr class="memdesc:acc38fd2013a79b4c85efef564980b736"><td class="mdescLeft">&#160;</td><td class="mdescRight">播放控制，切到下一首  <a href="#acc38fd2013a79b4c85efef564980b736">更多...</a><br /></td></tr>
+<tr class="separator:acc38fd2013a79b4c85efef564980b736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaff236c876e4a1686289efceec5278a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#aeaff236c876e4a1686289efceec5278a">tvs_api_playcontrol_previous</a> ()</td></tr>
+<tr class="memdesc:aeaff236c876e4a1686289efceec5278a"><td class="mdescLeft">&#160;</td><td class="mdescRight">播放控制，切到上一首  <a href="#aeaff236c876e4a1686289efceec5278a">更多...</a><br /></td></tr>
+<tr class="separator:aeaff236c876e4a1686289efceec5278a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2a7895fd8c14d9b3df86ea45963ece"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a9d2a7895fd8c14d9b3df86ea45963ece">tvs_api_start_text_recognize</a> (const char *text)</td></tr>
+<tr class="memdesc:a9d2a7895fd8c14d9b3df86ea45963ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">智能文本解析接口  <a href="#a9d2a7895fd8c14d9b3df86ea45963ece">更多...</a><br /></td></tr>
+<tr class="separator:a9d2a7895fd8c14d9b3df86ea45963ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a100a6cf44a0064819578626078d7a6f2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a100a6cf44a0064819578626078d7a6f2">tvs_api_send_semantic</a> (const char *semantic)</td></tr>
+<tr class="memdesc:a100a6cf44a0064819578626078d7a6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">明确语义接口  <a href="#a100a6cf44a0064819578626078d7a6f2">更多...</a><br /></td></tr>
+<tr class="separator:a100a6cf44a0064819578626078d7a6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbf86710255373fc456aecd7017432c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a3fbf86710255373fc456aecd7017432c">tvs_api_start_text_to_speech</a> (char *text)</td></tr>
+<tr class="memdesc:a3fbf86710255373fc456aecd7017432c"><td class="mdescLeft">&#160;</td><td class="mdescRight">语音合成接口，语音合成参数，包括音量、声调、语速和音色均采用默认值  <a href="#a3fbf86710255373fc456aecd7017432c">更多...</a><br /></td></tr>
+<tr class="separator:a3fbf86710255373fc456aecd7017432c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11c6cf4bb1e399b933d2ead1afd8849c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a11c6cf4bb1e399b933d2ead1afd8849c">tvs_api_start_text_to_speech_ex</a> (<a class="el" href="structtvs__api__tts__param.html">tvs_api_tts_param</a> *tts_param)</td></tr>
+<tr class="memdesc:a11c6cf4bb1e399b933d2ead1afd8849c"><td class="mdescLeft">&#160;</td><td class="mdescRight">语音合成接口，带参数  <a href="#a11c6cf4bb1e399b933d2ead1afd8849c">更多...</a><br /></td></tr>
+<tr class="separator:a11c6cf4bb1e399b933d2ead1afd8849c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b6e997f0eef04956e18f4390451587"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a21b6e997f0eef04956e18f4390451587">tvs_api_init</a> (<a class="el" href="structtvs__api__callback.html">tvs_api_callback</a> *api_callbacks, <a class="el" href="structtvs__default__config.html">tvs_default_config</a> *config, <a class="el" href="structtvs__product__qua.html">tvs_product_qua</a> *produce_qua)</td></tr>
+<tr class="memdesc:a21b6e997f0eef04956e18f4390451587"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化SDK  <a href="#a21b6e997f0eef04956e18f4390451587">更多...</a><br /></td></tr>
+<tr class="separator:a21b6e997f0eef04956e18f4390451587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1292bf4da1aaac6bef106fa1b26469e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a1292bf4da1aaac6bef106fa1b26469e6">tvs_api_set_asr_callback</a> (<a class="el" href="tvs__common__def_8h.html#ad99bb624547e16fe676bba6903cad66a">tvs_callback_on_asr_result</a> callback)</td></tr>
+<tr class="memdesc:a1292bf4da1aaac6bef106fa1b26469e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">监听后台下发的语音转文本结果  <a href="#a1292bf4da1aaac6bef106fa1b26469e6">更多...</a><br /></td></tr>
+<tr class="separator:a1292bf4da1aaac6bef106fa1b26469e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17b2b66bf796a796184547053c375018"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a17b2b66bf796a796184547053c375018">tvs_api_set_env</a> (<a class="el" href="tvs__common__def_8h.html#a7b5f77df252a057ac0a63f6f07f44833">tvs_api_env</a> env)</td></tr>
+<tr class="memdesc:a17b2b66bf796a796184547053c375018"><td class="mdescLeft">&#160;</td><td class="mdescRight">此函数已失效  <a href="#a17b2b66bf796a796184547053c375018">更多...</a><br /></td></tr>
+<tr class="separator:a17b2b66bf796a796184547053c375018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee8962c93c5e4636319f1f12a3fa889"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a4ee8962c93c5e4636319f1f12a3fa889">tvs_api_set_sandbox</a> (bool open_sandbox)</td></tr>
+<tr class="memdesc:a4ee8962c93c5e4636319f1f12a3fa889"><td class="mdescLeft">&#160;</td><td class="mdescRight">此函数已失效  <a href="#a4ee8962c93c5e4636319f1f12a3fa889">更多...</a><br /></td></tr>
+<tr class="separator:a4ee8962c93c5e4636319f1f12a3fa889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb5e31cdeb7c2350637d452d879f3ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tvs__common__def_8h.html#af3d61c6c0a0109373487de2a670ace99">tvs_mode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a2eb5e31cdeb7c2350637d452d879f3ce">tvs_api_get_current_mode</a> ()</td></tr>
+<tr class="memdesc:a2eb5e31cdeb7c2350637d452d879f3ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取当前模式  <a href="#a2eb5e31cdeb7c2350637d452d879f3ce">更多...</a><br /></td></tr>
+<tr class="separator:a2eb5e31cdeb7c2350637d452d879f3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a415b805f5c22293f3c5a8af2ce4d9c1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a415b805f5c22293f3c5a8af2ce4d9c1f">tvs_api_log_enable</a> (bool enable)</td></tr>
+<tr class="memdesc:a415b805f5c22293f3c5a8af2ce4d9c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">禁止/允许打印日志，默认为禁止打印  <a href="#a415b805f5c22293f3c5a8af2ce4d9c1f">更多...</a><br /></td></tr>
+<tr class="separator:a415b805f5c22293f3c5a8af2ce4d9c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaa49ab3c99b81f655594815dcb2d0ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#afaa49ab3c99b81f655594815dcb2d0ce">tvs_api_start</a> ()</td></tr>
+<tr class="memdesc:afaa49ab3c99b81f655594815dcb2d0ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">启动SDK  <a href="#afaa49ab3c99b81f655594815dcb2d0ce">更多...</a><br /></td></tr>
+<tr class="separator:afaa49ab3c99b81f655594815dcb2d0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5e49ff924e489b75fb5faba2983949"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a8b5e49ff924e489b75fb5faba2983949">tvs_api_stop</a> ()</td></tr>
+<tr class="memdesc:a8b5e49ff924e489b75fb5faba2983949"><td class="mdescLeft">&#160;</td><td class="mdescRight">停止SDK，用于有账号方案重新授权的情况  <a href="#a8b5e49ff924e489b75fb5faba2983949">更多...</a><br /></td></tr>
+<tr class="separator:a8b5e49ff924e489b75fb5faba2983949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b61935e952e6c8d8b84435a8b440f1e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a1b61935e952e6c8d8b84435a8b440f1e">tvs_api_new_session_id</a> ()</td></tr>
+<tr class="memdesc:a1b61935e952e6c8d8b84435a8b440f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建一个新的session id，代表开启一轮新的智能语音对话  <a href="#a1b61935e952e6c8d8b84435a8b440f1e">更多...</a><br /></td></tr>
+<tr class="separator:a1b61935e952e6c8d8b84435a8b440f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac283dd44d9ae8ba9e300dc5d2ac5998b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#ac283dd44d9ae8ba9e300dc5d2ac5998b">tvs_api_on_voice_wakeup</a> (int session_id, const char *wakeword, int startIndexInSamples, int endIndexInSamples)</td></tr>
+<tr class="memdesc:ac283dd44d9ae8ba9e300dc5d2ac5998b"><td class="mdescLeft">&#160;</td><td class="mdescRight">设备端响应本地热词唤醒事件，开始一轮新的智能语音识别； 此函数用于在SDK之外提供前端音频处理模块的方案。在收到本地热词唤醒事件时，接入方需要调用此函数，准备接收前端 音频模块发送的语音数据，需要配合tvs_api_audio_provider_writer_begin一起使用；  <a href="#ac283dd44d9ae8ba9e300dc5d2ac5998b">更多...</a><br /></td></tr>
+<tr class="separator:ac283dd44d9ae8ba9e300dc5d2ac5998b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09a5b33c7860a77fdae6cf837c1bb70c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a09a5b33c7860a77fdae6cf837c1bb70c">tvs_api_audio_provider_writer_begin</a> ()</td></tr>
+<tr class="memdesc:a09a5b33c7860a77fdae6cf837c1bb70c"><td class="mdescLeft">&#160;</td><td class="mdescRight">通知SDK，前端音频模块准备开始录音 此函数用于在SDK之外提供前端音频处理模块的方案。 收到本地热词唤醒事件后，先调用此函数，再调用tvs_api_on_voice_wakeup  <a href="#a09a5b33c7860a77fdae6cf837c1bb70c">更多...</a><br /></td></tr>
+<tr class="separator:a09a5b33c7860a77fdae6cf837c1bb70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455d7426464f1c6e119d93281a8fd2f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a455d7426464f1c6e119d93281a8fd2f5">tvs_api_audio_provider_listen</a> (<a class="el" href="tvs__common__def_8h.html#a0fd8e8fff55c25044094299990c6bc2f">tvs_api_callback_on_provider_reader_stop</a> callback)</td></tr>
+<tr class="memdesc:a455d7426464f1c6e119d93281a8fd2f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">前端音频模块监听SDK的停止事件；  <a href="#a455d7426464f1c6e119d93281a8fd2f5">更多...</a><br /></td></tr>
+<tr class="separator:a455d7426464f1c6e119d93281a8fd2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e28cb017de30e62aa35f5096995e0c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a3e28cb017de30e62aa35f5096995e0c5">tvs_api_audio_provider_writer_end</a> ()</td></tr>
+<tr class="memdesc:a3e28cb017de30e62aa35f5096995e0c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">通知SDK，前端音频模块录音停止，一般是检测到了本地VAD的结束标识 此函数用于在SDK之外提供前端音频处理模块的方案。 前端音频模块收到本地VAD的结束标识时，调用此函数  <a href="#a3e28cb017de30e62aa35f5096995e0c5">更多...</a><br /></td></tr>
+<tr class="separator:a3e28cb017de30e62aa35f5096995e0c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87ef7d592b45b477823856e5722465f3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tvs__api_8h.html#a87ef7d592b45b477823856e5722465f3">tvs_api_audio_provider_write</a> (const char *audio_data, int size)</td></tr>
+<tr class="memdesc:a87ef7d592b45b477823856e5722465f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">将前端音频模块采集到的语音（PCM）喂给SDK，SDK将会为这些数据编码，并发送到云端进行识别  <a href="#a87ef7d592b45b477823856e5722465f3">更多...</a><br /></td></tr>
+<tr class="separator:a87ef7d592b45b477823856e5722465f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>TVS SDK对外接口 </p>
+<dl class="section date"><dt>日期</dt><dd>2019-5-10</dd></dl>
+<p>接入TVS SDK并实现TVS Adapter，需要遵循如下流程：</p>
+<ul>
+<li>实现Meidia Player Adapter定义的各个回调函数，赋予SDK播放流媒体的数据和TTS的能力；监听系统媒体播放器状态，实时同步播放状态给SDK；</li>
+<li>实现Platform Adapter定义的各个回调函数，赋予SDK操作声卡、获取/设置音量、保存/读取全局配置等系统能力；监听系统网络状态变化、音量变化，实时同步给SDK；</li>
+<li>实现Alert Adapter定义的各个回调函数，赋予SDK操作闹钟、提醒的能力；监听闹钟振铃状态，实时同步给SDK；</li>
+<li>初始化SDK，注册监听器监听SDK状态变化；</li>
+<li>SDK授权，确定有账号/无账号方案，监听授权状态并保存授权结果； </li>
+</ul>
+</div><h2 class="groupheader">函数说明</h2>
+<a id="a455d7426464f1c6e119d93281a8fd2f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455d7426464f1c6e119d93281a8fd2f5">&#9670;&nbsp;</a></span>tvs_api_audio_provider_listen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_audio_provider_listen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="tvs__common__def_8h.html#a0fd8e8fff55c25044094299990c6bc2f">tvs_api_callback_on_provider_reader_stop</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>前端音频模块监听SDK的停止事件； </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">callback</td><td>监听器 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0代表成功，其他值代表失败，见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="a87ef7d592b45b477823856e5722465f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ef7d592b45b477823856e5722465f3">&#9670;&nbsp;</a></span>tvs_api_audio_provider_write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_audio_provider_write </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>audio_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将前端音频模块采集到的语音（PCM）喂给SDK，SDK将会为这些数据编码，并发送到云端进行识别 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">audio_data</td><td>前端音频模块采集到的PCM数据 </td></tr>
+    <tr><td class="paramname">size</td><td>前端音频模块采集到的PCM数据的长度，要求小于1k字节 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0代表成功，其他值代表失败，见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="a09a5b33c7860a77fdae6cf837c1bb70c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09a5b33c7860a77fdae6cf837c1bb70c">&#9670;&nbsp;</a></span>tvs_api_audio_provider_writer_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_audio_provider_writer_begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>通知SDK，前端音频模块准备开始录音 此函数用于在SDK之外提供前端音频处理模块的方案。 收到本地热词唤醒事件后，先调用此函数，再调用tvs_api_on_voice_wakeup </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">无</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0代表成功，其他值代表失败，见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="a3e28cb017de30e62aa35f5096995e0c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e28cb017de30e62aa35f5096995e0c5">&#9670;&nbsp;</a></span>tvs_api_audio_provider_writer_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tvs_api_audio_provider_writer_end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>通知SDK，前端音频模块录音停止，一般是检测到了本地VAD的结束标识 此函数用于在SDK之外提供前端音频处理模块的方案。 前端音频模块收到本地VAD的结束标识时，调用此函数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">无</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>无 </dd></dl>
+
+</div>
+</div>
+<a id="a2eb5e31cdeb7c2350637d452d879f3ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eb5e31cdeb7c2350637d452d879f3ce">&#9670;&nbsp;</a></span>tvs_api_get_current_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="tvs__common__def_8h.html#af3d61c6c0a0109373487de2a670ace99">tvs_mode</a> tvs_api_get_current_mode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>获取当前模式 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a21b6e997f0eef04956e18f4390451587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21b6e997f0eef04956e18f4390451587">&#9670;&nbsp;</a></span>tvs_api_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structtvs__api__callback.html">tvs_api_callback</a> *&#160;</td>
+          <td class="paramname"><em>api_callbacks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structtvs__default__config.html">tvs_default_config</a> *&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structtvs__product__qua.html">tvs_product_qua</a> *&#160;</td>
+          <td class="paramname"><em>produce_qua</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初始化SDK </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">api_callbacks</td><td>监听器 </td></tr>
+    <tr><td class="paramname">produce_qua</td><td>产品QUA，用于区分不同的产品，以及相同产品的不同版本 </td></tr>
+    <tr><td class="paramname">config</td><td>SDK默认配置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0代表初始化成功，其他值代表失败 </dd></dl>
+
+</div>
+</div>
+<a id="a415b805f5c22293f3c5a8af2ce4d9c1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a415b805f5c22293f3c5a8af2ce4d9c1f">&#9670;&nbsp;</a></span>tvs_api_log_enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tvs_api_log_enable </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>禁止/允许打印日志，默认为禁止打印 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enable</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>无 </dd></dl>
+
+</div>
+</div>
+<a id="a1b61935e952e6c8d8b84435a8b440f1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b61935e952e6c8d8b84435a8b440f1e">&#9670;&nbsp;</a></span>tvs_api_new_session_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_new_session_id </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>创建一个新的session id，代表开启一轮新的智能语音对话 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">无</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>新的session id </dd></dl>
+
+</div>
+</div>
+<a id="ac283dd44d9ae8ba9e300dc5d2ac5998b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac283dd44d9ae8ba9e300dc5d2ac5998b">&#9670;&nbsp;</a></span>tvs_api_on_voice_wakeup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_on_voice_wakeup </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>session_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>wakeword</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startIndexInSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endIndexInSamples</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设备端响应本地热词唤醒事件，开始一轮新的智能语音识别； 此函数用于在SDK之外提供前端音频处理模块的方案。在收到本地热词唤醒事件时，接入方需要调用此函数，准备接收前端 音频模块发送的语音数据，需要配合tvs_api_audio_provider_writer_begin一起使用； </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">session_id</td><td>&ndash; 通过调用tvs_api_new_session_id函数获取 </td></tr>
+    <tr><td class="paramname">wakeword</td><td>&ndash; 设备端使用的唤醒词文本，比如“叮当叮当” </td></tr>
+    <tr><td class="paramname">startIndexInSamples</td><td>&ndash; 唤醒词的第一个采样点，在语音流中的索引 </td></tr>
+    <tr><td class="paramname">endIndexInSamples</td><td>&ndash; 唤醒词的最后一个采样点在语音流中的索引 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0代表成功，其他值代表失败，见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="acc38fd2013a79b4c85efef564980b736"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc38fd2013a79b4c85efef564980b736">&#9670;&nbsp;</a></span>tvs_api_playcontrol_next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_playcontrol_next </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>播放控制，切到下一首 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeaff236c876e4a1686289efceec5278a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaff236c876e4a1686289efceec5278a">&#9670;&nbsp;</a></span>tvs_api_playcontrol_previous()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_playcontrol_previous </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>播放控制，切到上一首 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a100a6cf44a0064819578626078d7a6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a100a6cf44a0064819578626078d7a6f2">&#9670;&nbsp;</a></span>tvs_api_send_semantic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_send_semantic </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>semantic</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>明确语义接口 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">semantic</td><td>待解析的明确语义 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>为0代表成功，其他值代表失败，见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="a1292bf4da1aaac6bef106fa1b26469e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1292bf4da1aaac6bef106fa1b26469e6">&#9670;&nbsp;</a></span>tvs_api_set_asr_callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_set_asr_callback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="tvs__common__def_8h.html#ad99bb624547e16fe676bba6903cad66a">tvs_callback_on_asr_result</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>监听后台下发的语音转文本结果 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">callback</td><td>监听器 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>0代表设置成功，其他值代表失败 </dd></dl>
+
+</div>
+</div>
+<a id="a17b2b66bf796a796184547053c375018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17b2b66bf796a796184547053c375018">&#9670;&nbsp;</a></span>tvs_api_set_env()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tvs_api_set_env </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="tvs__common__def_8h.html#a7b5f77df252a057ac0a63f6f07f44833">tvs_api_env</a>&#160;</td>
+          <td class="paramname"><em>env</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>此函数已失效 </p>
+
+</div>
+</div>
+<a id="a4ee8962c93c5e4636319f1f12a3fa889"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee8962c93c5e4636319f1f12a3fa889">&#9670;&nbsp;</a></span>tvs_api_set_sandbox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tvs_api_set_sandbox </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>open_sandbox</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>此函数已失效 </p>
+
+</div>
+</div>
+<a id="afaa49ab3c99b81f655594815dcb2d0ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaa49ab3c99b81f655594815dcb2d0ce">&#9670;&nbsp;</a></span>tvs_api_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>启动SDK </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a298d0865748f1c45fc1a3a87a68a3e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a298d0865748f1c45fc1a3a87a68a3e77">&#9670;&nbsp;</a></span>tvs_api_start_recognize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_start_recognize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>开启智能语音对话 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae8da1214bca01cca6d81b5591000f5cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8da1214bca01cca6d81b5591000f5cf">&#9670;&nbsp;</a></span>tvs_api_start_recognize_ex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_start_recognize_ex </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_8k_bitrate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_speex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>此函数已失效 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">use_8k_bitrate</td><td>设置为true，代表录音阶段采用8000Hz采样率，设置为false，代表录音阶段采用16000Hz采样率 </td></tr>
+    <tr><td class="paramname">use_speex</td><td>设置为true，在录音阶段对PCM采用speex编码并上传到云端进行识别，设置为false，不进行编码，直接上传PCM </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>为0代表开启成功，其他值代表失败，见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="a9d2a7895fd8c14d9b3df86ea45963ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d2a7895fd8c14d9b3df86ea45963ece">&#9670;&nbsp;</a></span>tvs_api_start_text_recognize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_start_text_recognize </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>智能文本解析接口 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>待解析的文本 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>为0代表成功，其他值代表失败，见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="a3fbf86710255373fc456aecd7017432c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fbf86710255373fc456aecd7017432c">&#9670;&nbsp;</a></span>tvs_api_start_text_to_speech()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_start_text_to_speech </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>语音合成接口，语音合成参数，包括音量、声调、语速和音色均采用默认值 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>待语音合成的文本 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>为0代表成功，其他值代表失败，见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="a11c6cf4bb1e399b933d2ead1afd8849c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11c6cf4bb1e399b933d2ead1afd8849c">&#9670;&nbsp;</a></span>tvs_api_start_text_to_speech_ex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_start_text_to_speech_ex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structtvs__api__tts__param.html">tvs_api_tts_param</a> *&#160;</td>
+          <td class="paramname"><em>tts_param</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>语音合成接口，带参数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tts_param</td><td>语音合成的参数，包括本文、音量、声调、语速和音色等 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>为0代表成功，其他值代表失败，见TVS_API_ERROR_* </dd></dl>
+
+</div>
+</div>
+<a id="a8b5e49ff924e489b75fb5faba2983949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5e49ff924e489b75fb5faba2983949">&#9670;&nbsp;</a></span>tvs_api_stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>停止SDK，用于有账号方案重新授权的情况 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeb7bcddccae08fbcac151b4d8f543e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb7bcddccae08fbcac151b4d8f543e09">&#9670;&nbsp;</a></span>tvs_api_stop_all_activity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_stop_all_activity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>中止当前正在进行的智能语音对话、播放控制等活动 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab78ceac876359e94de536d9eba3a55b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab78ceac876359e94de536d9eba3a55b5">&#9670;&nbsp;</a></span>tvs_api_stop_recognize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvs_api_stop_recognize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>中止当前的智能语音对话的录音流程，并立即开始识别 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="tvs__api_8h.html">tvs_api.h</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

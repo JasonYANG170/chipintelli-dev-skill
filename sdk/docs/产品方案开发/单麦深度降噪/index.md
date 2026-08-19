@@ -1,0 +1,5 @@
+<!-- Source: https://document.chipintelli.com/%E4%BA%A7%E5%93%81%E6%96%B9%E6%A1%88%E5%BC%80%E5%8F%91/%E5%8D%95%E9%BA%A6%E6%B7%B1%E5%BA%A6%E9%99%8D%E5%99%AA/ -->
+
+# 单麦深度降噪
+
+* [CI1332X系列-通话降噪方案](https://document.chipintelli.com/%E4%BA%A7%E5%93%81%E6%96%B9%E6%A1%88%E5%BC%80%E5%8F%91/%E5%8D%95%E9%BA%A6%E6%B7%B1%E5%BA%A6%E9%99%8D%E5%99%AA/%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/CI1332X%E7%B3%BB%E5%88%97-%E9%80%9A%E8%AF%9D%E9%99%8D%E5%99%AA%E6%96%B9%E6%A1%88/)

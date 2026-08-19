@@ -1,0 +1,9 @@
+digraph "tvs_platform_adapter.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="tvs_platform_adapter.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="TVS platform 接口层"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="tvs_api.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tvs__api_8h.html",tooltip="TVS SDK对外接口"];
+}

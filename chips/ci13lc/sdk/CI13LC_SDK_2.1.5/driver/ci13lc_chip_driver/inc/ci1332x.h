@@ -1,0 +1,52 @@
+/**
+ * @file ci_1324x.h
+ * @brief  芯片型号相关信息文件
+ * @version 0.1
+ * @date 2024-05-30
+ *
+ * @copyright Copyright (c) 2024  Chipintelli Technology Co., Ltd.
+ *
+ */
+
+#ifndef _CI_1324X_H_
+#define _CI_1324X_H_
+
+#include "ci13lc.h"
+
+
+typedef enum
+{
+/***-----PAD-----****************----analgo--****----1st-----****---2nd-----****----3rd----****----4th----****----5th----****----6th----****----7th----****/
+    PA0                  = 0,   /*  OSC_IN       PA_0            PWM2           ---            ---            ---            ---            ---           */
+    PA1                  = 1,   /*  OSC_OUT      PA_1            ---            ---            ---            ---            ---            ---           */
+    BOOT_SEL_0_PAD       = 2,   /*               BOOT_SEL_0      ---            ---            ---            ---            ---            ---           */    
+    SPI0_CS_PAD          = 3,   /*               SPI0_CS         ---            ---            ---            ---            ---            ---           */
+    SPI0_D1_PAD          = 4,   /*               SPI0_D1         ---            ---            ---            ---            ---            ---           */
+    SPI0_D2_PAD          = 5,   /*               SPI0_D2         ---            ---            ---            ---            ---            ---           */
+    PA2                  = 6,   /*               PA_2            IIS0_SDI       IIC0_SDA       UART1_TX       PWM0           PWMP           ---           */
+    PA3                  = 7,   /*               PA_3            IIS0_LRCLK     IIC0_SCL       UART1_RX       PWM1           PWMN           ---           */
+    PA4                  = 8,   /*               PA_4            IIS0_SDO       ---            ---            PWM2           PWMP           ---           */
+    PA5                  = 9,   /*               PA_5            IIS0_SCLK      ---            UART2_TX       PWM3           PWMN           ---           */
+    PA6                  = 10,  /*               PA_6            IIS0_MCLK      ---            UART2_RX       PWM0           INTER_CLKOUT   ---           */
+    PA7                  = 11,  /*               PA_7            PWM0           UART1_TX       EXT_INT0       ---            ---            ---           */
+    PB0                  = 12,  /*               PB_0            PWM1           UART1_RX       EXT_INT1       ---            ---            ---           */
+    PB1                  = 13,  /*               PB_1            PWM2           UART2_TX       PWMP           ---            ---            ---           */
+    PB2                  = 14,  /*               PB_2            PWM3           UART2_RX       PWMN           ---            ---            ---           */
+    PB5                  = 17,  /*               PB_5            UART0_TX       IIC0_SDA       PWM1           PWMP           ---            INTER_CLKOUT  */
+    PB6                  = 18,  /*               PB_6            UART0_RX       IIC0_SCL       PWM2           PWMN           ---            ---           */
+	PB7                  = 19,  /*               PB_7            ---            ---            ---            ---            ---            ---           */
+    KEY_RSTN_PAD         = 21,  /*               KEY_RSTN        ---            ---            ---            ---            ---            ---           */
+    TEST_EN_PAD          = 22,  /*               TEST_EN         ---            ---            ---            ---            ---            ---           */
+    SPI0_D0_PAD          = 23,  /*               SPI0_D0         ---            ---            ---            ---            ---            ---           */
+    SPI0_CLK_PAD         = 24,  /*               SPI0_CLK        ---            ---            ---            ---            ---            ---           */
+    SPI0_D3_PAD          = 25,  /*               SPI0_D3         ---            ---            ---            ---            ---            ---           */
+	PC1                  = 26,  /*               ---             PC_1           UART2_TX       PWM3           ---            ---            ---           */
+	PC2                  = 27,  /*               ---             PC_2           UART2_RX       PWM2           INTER_CLKOUT   ---            ---           */
+	PC3                  = 28,  /*               ---             PC_3           IIC0_SDA       PWM1           ---            ---            ---           */
+	PC4                  = 29,  /*               ---             PC_4           IIC0_SCL       PWM0           ---            ---            ---           */
+	PC5                  = 30,  /*               PC_5            ---            ---            ---            ---            ---            ---           */
+}PinPad_Name;
+
+
+#endif  // _CI_1324X_H_
+

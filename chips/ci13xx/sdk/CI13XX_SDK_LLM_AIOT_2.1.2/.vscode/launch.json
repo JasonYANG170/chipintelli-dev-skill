@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/启英泰伦资料/CI130X_SDK_ALG_PRO_2.5.X_AIOT_解决播放结束30S才返回结束指令和清空pcm缓存老数据buf和去掉多线程数据共享bufer_V9/projects/offline_asr_llm_aiot_hpout_sample/app/app_main",
+      "program": "e:/启英泰伦资料/CI130X_SDK_ALG_PRO_2.5.X_AIOT_解决播放结束30S才返回结束指令和清空pcm缓存老数据buf和去掉多线程数据共享bufer_V9/projects/offline_asr_llm_aiot_hpout_sample/app/app_main/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

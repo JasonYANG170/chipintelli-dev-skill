@@ -1,0 +1,2 @@
+
+static int _fini;

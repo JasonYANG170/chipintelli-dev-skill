@@ -1,0 +1,8 @@
+# Binary executables and installers
+*.exe
+
+# Audio / voice prompt files
+*.mp3
+
+# Git
+.git/

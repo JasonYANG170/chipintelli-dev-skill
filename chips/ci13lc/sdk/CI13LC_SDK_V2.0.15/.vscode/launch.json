@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "inputs":[
+        {
+            "id": "project_name",
+            "type": "command",
+            "command": "ci-tool.pick-project",
+        },
+     ],
+    "configurations": [
+        {
+            "name": "offline_asr_sample",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\projects\\offline_asr_sample\\project_file\\build\\offline_asr_sample.elf",
+            "args": [],
+            "stopAtEntry": true,
+            "externalConsole": false,
+            "cwd": "${workspaceFolder}\\projects\\offline_asr_sample\\project_file",
+            "environment": [],
+            "MIMode": "gdb",
+            "miDebuggerPath": "${config:ci-tool.COMPILER_PATH}/riscv-nuclei-elf-gdb.exe",
+            "launchCompleteCommand": "None", 
+            "setupCommands": [                
+                {"text": "set mem inaccessible-by-default off"},
+                {"text": "set arch riscv:rv32"},
+                {"text": "set remotetimeout 10000"},
+                {"text": "target extended-remote ${config:ci-debug-server}:3333"},
+                {"text": "monitor halt"},
+                {"text": "set $tselect=0"},
+                {"text": "set $tdata1=0"},
+                {"text": "set $tselect=1"},
+                {"text": "set $tdata1=0"},
+                {"text": "set $tselect=2"},
+                {"text": "set $tdata1=0"},
+                {"text": "monitor reset halt"},
+                {"text": "cd ${workspaceFolder}\\\\projects\\\\offline_asr_sample\\\\project_file"},
+                {"text": "load 'build\\\\offline_asr_sample.elf'"},
+                {"text": "set {char[32]} 0x1ff50a00 = \"Debugging,there is no data.\""},
+            ],
+
+            "debugServerPath": "${workspaceFolder}/tools/Debug-tool/C101-script/h-bird-debugger/cjtag/C101-h-reset-single-cjtag.bat",
+            // "preLaunchTask": "compile",
+            "postDebugTask": "stop openocd",
+        },
+    ],
+}

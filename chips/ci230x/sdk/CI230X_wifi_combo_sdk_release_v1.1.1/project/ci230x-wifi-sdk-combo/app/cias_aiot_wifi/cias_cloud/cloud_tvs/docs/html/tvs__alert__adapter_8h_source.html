@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>tvs_sdk_api: tvs_alert_adapter.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">tvs_sdk_api
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('tvs__alert__adapter_8h_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">tvs_alert_adapter.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tvs__alert__adapter_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef __TVS_ALERT_ADAPTER_H__</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define __TVS_ALERT_ADAPTER_H__</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structtvs__alert__infos.html">   14</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structtvs__alert__infos.html#a821e61323628ac4ceb2c619dec2c4606">   15</a></span>&#160;    <span class="keywordtype">char</span>* <a class="code" href="structtvs__alert__infos.html#a821e61323628ac4ceb2c619dec2c4606">alert_detail</a>;         </div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;} <a class="code" href="structtvs__alert__infos.html">tvs_alert_infos</a>; </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define TVS_ALERTS_TYPE_MAX   32</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define TVS_ALERTS_TIME_MAX   64</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#define TVS_ALERTS_TOKEN_MAX   255</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structtvs__alert__summary.html">   25</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structtvs__alert__summary.html#afd936cf15e8cf223fcf8b16234b77baa">   26</a></span>&#160;    <span class="keywordtype">char</span> alert_type[TVS_ALERTS_TYPE_MAX + 1];           </div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="structtvs__alert__summary.html#a3a430a80964d12a7027f8910bb927a92">   27</a></span>&#160;    <span class="keywordtype">char</span> time_iso_8601[TVS_ALERTS_TIME_MAX + 1];        </div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="structtvs__alert__summary.html#afc95e012e67b94119ed2bdb013cc414c">   28</a></span>&#160;    <span class="keywordtype">char</span> alert_token[TVS_ALERTS_TOKEN_MAX + 1];         </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;} <a class="code" href="structtvs__alert__summary.html">tvs_alert_summary</a>; </div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81">   34</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81af27fa43e35dfbcd6b8f10ea43b4ebd84">   35</a></span>&#160;    <a class="code" href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81af27fa43e35dfbcd6b8f10ea43b4ebd84">TVS_ALART_STOP_REASON_NEW_RECO</a>,  </div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81a4c03d4ec8d95a579485ec4f23705ba52">   36</a></span>&#160;    <a class="code" href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81a4c03d4ec8d95a579485ec4f23705ba52">TVS_ALART_STOP_REASON_TIMEOUT</a>,   </div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81a3a6b67319af63c5a0fe746e7630d6383">   37</a></span>&#160;    <a class="code" href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81a3a6b67319af63c5a0fe746e7630d6383">TVS_ALART_STOP_REASON_MANNUAL</a>,   </div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;} <a class="code" href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81">tvs_alert_stop_reason</a>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="tvs__alert__adapter_8h.html#a68fcfa2101a28520a2341dc4e8a5ff35">   47</a></span>&#160;<span class="keyword">typedef</span> int (*<a class="code" href="tvs__alert__adapter_8h.html#a68fcfa2101a28520a2341dc4e8a5ff35">tvs_alert_adapter_new</a>)(<a class="code" href="structtvs__alert__infos.html">tvs_alert_infos</a>* alerts, <span class="keywordtype">int</span> alert_count);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="tvs__alert__adapter_8h.html#abda91d00843e17c88257b35e21a9c5ff">   56</a></span>&#160;<span class="keyword">typedef</span> int (*<a class="code" href="tvs__alert__adapter_8h.html#abda91d00843e17c88257b35e21a9c5ff">tvs_alert_adapter_delete</a>)(<a class="code" href="structtvs__alert__summary.html">tvs_alert_summary</a>* alerts, <span class="keywordtype">int</span> alert_count);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="tvs__alert__adapter_8h.html#a4ca22716d5b7d26839c720e5deb1e0d5">   64</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="structtvs__alert__summary.html">tvs_alert_summary</a>* (*tvs_alert_adapter_get_all_alerts)(<span class="keywordtype">int</span>* count);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="tvs__alert__adapter_8h.html#a796116758f23b4fcb8a7feb3dd1ddd15">   72</a></span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">void</span>* (*tvs_alert_adater_get_all_alerts_ex)();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="structtvs__alert__adapter.html">   74</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="tvs__alert__adapter_8h.html#a68fcfa2101a28520a2341dc4e8a5ff35">tvs_alert_adapter_new</a> do_new_alert;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="tvs__alert__adapter_8h.html#abda91d00843e17c88257b35e21a9c5ff">tvs_alert_adapter_delete</a> do_delete;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="tvs__alert__adapter_8h.html#a4ca22716d5b7d26839c720e5deb1e0d5">tvs_alert_adapter_get_all_alerts</a> get_alerts;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="tvs__alert__adapter_8h.html#a796116758f23b4fcb8a7feb3dd1ddd15">tvs_alert_adater_get_all_alerts_ex</a> get_alerts_ex;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;} <a class="code" href="structtvs__alert__adapter.html">tvs_alert_adapter</a>;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__alert__adapter_8h.html#a888dd36a95f93c0e3ddd4ef9e651cfc7">tvs_alert_adapter_init</a>(<a class="code" href="structtvs__alert__adapter.html">tvs_alert_adapter</a>* adapter);</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__alert__adapter_8h.html#a903a0625af623c97a0ef3a9e326f2b5e">tvs_alert_adapter_on_trigger</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* alert_token);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keywordtype">int</span> <a class="code" href="tvs__alert__adapter_8h.html#a8c5deba654cdbdc1c813071dc78ab9cd">tvs_alert_adapter_on_trigger_stop</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* alert_token, <a class="code" href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81">tvs_alert_stop_reason</a> reason);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="structtvs__alert__infos_html"><div class="ttname"><a href="structtvs__alert__infos.html">tvs_alert_infos</a></div><div class="ttdoc">闹钟的详细信息</div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:14</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_af682ff904f9812bc8be9dfe95c030e81a3a6b67319af63c5a0fe746e7630d6383"><div class="ttname"><a href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81a3a6b67319af63c5a0fe746e7630d6383">TVS_ALART_STOP_REASON_MANNUAL</a></div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:37</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_af682ff904f9812bc8be9dfe95c030e81a4c03d4ec8d95a579485ec4f23705ba52"><div class="ttname"><a href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81a4c03d4ec8d95a579485ec4f23705ba52">TVS_ALART_STOP_REASON_TIMEOUT</a></div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:36</div></div>
+<div class="ttc" id="structtvs__alert__adapter_html"><div class="ttname"><a href="structtvs__alert__adapter.html">tvs_alert_adapter</a></div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:74</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_a4ca22716d5b7d26839c720e5deb1e0d5"><div class="ttname"><a href="tvs__alert__adapter_8h.html#a4ca22716d5b7d26839c720e5deb1e0d5">tvs_alert_adapter_get_all_alerts</a></div><div class="ttdeci">tvs_alert_summary *(* tvs_alert_adapter_get_all_alerts)(int *count)</div><div class="ttdoc">实现此接口，赋予SDK获取闹钟概要信息的能力</div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:64</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_a796116758f23b4fcb8a7feb3dd1ddd15"><div class="ttname"><a href="tvs__alert__adapter_8h.html#a796116758f23b4fcb8a7feb3dd1ddd15">tvs_alert_adater_get_all_alerts_ex</a></div><div class="ttdeci">void *(* tvs_alert_adater_get_all_alerts_ex)()</div><div class="ttdoc">实现此接口，赋予SDK获取闹钟概要信息的能力,扩展接口。 如果实现了本接口，tvs_alert_adapter_get_all_alerts将不会被调用</div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:72</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_abda91d00843e17c88257b35e21a9c5ff"><div class="ttname"><a href="tvs__alert__adapter_8h.html#abda91d00843e17c88257b35e21a9c5ff">tvs_alert_adapter_delete</a></div><div class="ttdeci">int(* tvs_alert_adapter_delete)(tvs_alert_summary *alerts, int alert_count)</div><div class="ttdoc">实现此接口，赋予SDK删除闹钟的能力</div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:56</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_af682ff904f9812bc8be9dfe95c030e81"><div class="ttname"><a href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81">tvs_alert_stop_reason</a></div><div class="ttdeci">tvs_alert_stop_reason</div><div class="ttdoc">闹钟触发振铃后，停止的原因</div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:34</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_a68fcfa2101a28520a2341dc4e8a5ff35"><div class="ttname"><a href="tvs__alert__adapter_8h.html#a68fcfa2101a28520a2341dc4e8a5ff35">tvs_alert_adapter_new</a></div><div class="ttdeci">int(* tvs_alert_adapter_new)(tvs_alert_infos *alerts, int alert_count)</div><div class="ttdoc">实现此接口，赋予SDK新增闹钟的能力</div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:47</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_a8c5deba654cdbdc1c813071dc78ab9cd"><div class="ttname"><a href="tvs__alert__adapter_8h.html#a8c5deba654cdbdc1c813071dc78ab9cd">tvs_alert_adapter_on_trigger_stop</a></div><div class="ttdeci">int tvs_alert_adapter_on_trigger_stop(const char *alert_token, tvs_alert_stop_reason reason)</div><div class="ttdoc">在闹钟到时触发振铃之后，在结束的时候，调用此函数通知SDK</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_af682ff904f9812bc8be9dfe95c030e81af27fa43e35dfbcd6b8f10ea43b4ebd84"><div class="ttname"><a href="tvs__alert__adapter_8h.html#af682ff904f9812bc8be9dfe95c030e81af27fa43e35dfbcd6b8f10ea43b4ebd84">TVS_ALART_STOP_REASON_NEW_RECO</a></div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:35</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_a903a0625af623c97a0ef3a9e326f2b5e"><div class="ttname"><a href="tvs__alert__adapter_8h.html#a903a0625af623c97a0ef3a9e326f2b5e">tvs_alert_adapter_on_trigger</a></div><div class="ttdeci">int tvs_alert_adapter_on_trigger(const char *alert_token)</div><div class="ttdoc">在闹钟到时开始振铃的时候，调用此函数通知SDK</div></div>
+<div class="ttc" id="structtvs__alert__infos_html_a821e61323628ac4ceb2c619dec2c4606"><div class="ttname"><a href="structtvs__alert__infos.html#a821e61323628ac4ceb2c619dec2c4606">tvs_alert_infos::alert_detail</a></div><div class="ttdeci">char * alert_detail</div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:15</div></div>
+<div class="ttc" id="structtvs__alert__summary_html"><div class="ttname"><a href="structtvs__alert__summary.html">tvs_alert_summary</a></div><div class="ttdoc">闹钟概要信息</div><div class="ttdef"><b>Definition:</b> tvs_alert_adapter.h:25</div></div>
+<div class="ttc" id="tvs__alert__adapter_8h_html_a888dd36a95f93c0e3ddd4ef9e651cfc7"><div class="ttname"><a href="tvs__alert__adapter_8h.html#a888dd36a95f93c0e3ddd4ef9e651cfc7">tvs_alert_adapter_init</a></div><div class="ttdeci">int tvs_alert_adapter_init(tvs_alert_adapter *adapter)</div><div class="ttdoc">初始化</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="tvs__alert__adapter_8h.html">tvs_alert_adapter.h</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

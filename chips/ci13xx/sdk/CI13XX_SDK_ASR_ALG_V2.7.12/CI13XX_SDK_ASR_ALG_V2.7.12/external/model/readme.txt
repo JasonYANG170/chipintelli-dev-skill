@@ -1,0 +1,7 @@
+doa:声源定位(Direction of Arrival)
+nn_denoise:深度降噪(neural network denoise)
+sed_cry:哭声检测(Crying Sound Detection)
+sed_snore:鼾声检测(Snoring Detection)
+tts:TTS模型(TTS Model)
+vpr:声纹注册(Voiceprint Registration)
+wman_vpr:男女声纹(Male/Female Voiceprint)

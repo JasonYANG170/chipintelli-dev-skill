@@ -1,0 +1,5 @@
+<!-- Source: https://document.chipintelli.com/%E8%AF%AD%E9%9F%B3AI%E5%B9%B3%E5%8F%B0/%E5%B0%8F%E8%AF%AD%E7%A7%8D%E8%AE%AD%E7%BB%83/%E5%90%AF%E8%8B%B1%E6%B3%B0%E4%BC%A6%E5%B0%8F%E8%AF%AD%E7%A7%8D%E4%BA%A7%E5%93%81%E8%AF%86%E5%88%AB%E9%AA%8C%E6%94%B6%E6%A0%87%E5%87%86/ -->
+
+# 启英泰伦小语种产品识别验收标
+
+![image-20230625162732347](https://document.chipintelli.com/%E8%AF%AD%E9%9F%B3AI%E5%B9%B3%E5%8F%B0/%E5%B0%8F%E8%AF%AD%E7%A7%8D%E8%AE%AD%E7%BB%83/img/%E5%B0%8F%E8%AF%AD%E7%A7%8D%E9%AA%8C%E6%94%B6-1.png)

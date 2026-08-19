@@ -1,0 +1,38 @@
+{
+    "ci-tool.flag": "chipintelli-project",
+    "ci-tool.activated_project": "offline_asr_sample",
+    //"ci-tool.make_thread_number": "10",
+    "ci-tool.make_thread_number": "1",
+    "ci-debug-server": "127.0.0.1",
+    "terminal.integrated.env.windows": {"PATH": "${env:PATH};${config:ci-tool.COMPILER_PATH};${workspaceFolder}/tools/build-tools/bin;"},
+    "terminal.integrated.env.linux": {
+        "PATH": "${env:PATH};${config:ci-tool.COMPILER_PATH};${workspaceFolder}/tools/build-tools/bin;"
+    },
+    "files.associations": {
+        "task.h": "c",
+        "ci_pwm.h": "c",
+        "i2c_protocol_module.h": "c",
+        "freertos.h": "c",
+        "codec_manager.h": "c",
+        "system_msg_deal.h": "c",
+        "system_hook.h": "c",
+        "ci_assert.h": "c",
+        "ci_dpmu.h": "c",
+        "user_msg_deal.h": "c",
+        "board.h": "c",
+        "romlib_api.h": "c",
+        "asr_api.h": "c",
+        "queue.h": "c",
+        "ci_uart.h": "c",
+        "prompt_player.h": "c",
+        "ci_log.h": "c",
+        "ci_timer.h": "c",
+        "ci_gpio.h": "c",
+        "ci_scu.h": "c",
+        "sdk_default_config.h": "c"
+    },
+}
+
+
+
+

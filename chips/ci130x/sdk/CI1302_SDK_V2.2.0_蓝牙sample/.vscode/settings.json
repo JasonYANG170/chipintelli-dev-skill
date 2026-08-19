@@ -1,0 +1,5 @@
+{
+    "ci-tool.flag": "chipintelli-project",
+    "ci-tool.make_thread_number": "10",
+    
+}

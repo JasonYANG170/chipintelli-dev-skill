@@ -1,0 +1,6 @@
+Name: "ogg"
+
+Inc: 
+    - config_types.h
+    - ogg.h
+    - os_types.h
