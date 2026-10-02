@@ -1,3 +1,5 @@
+[简体中文](README.md) | [English](README_en.md)
+
 # chipintelli-dev-skill
 
 启英泰伦 (Chipintelli) 语音 MCU 全生态统一 AI 技能。覆盖 7 大芯片系列、20+ SDK 版本，
