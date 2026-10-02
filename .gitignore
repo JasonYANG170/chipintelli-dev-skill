@@ -10,3 +10,8 @@
 # Python cache
 __pycache__/
 *.pyc
+
+# Private deployment credentials
+.env
+.env.local
+wifi_credentials.local.h
